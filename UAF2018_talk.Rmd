@@ -129,7 +129,7 @@ class: frimgB, center
 
 class: center, middle, inverse
 
-# Many advances in sampling and analysis
+# Many scientific advances
 
 ---
 
@@ -148,6 +148,14 @@ background-image: url(figs/dna.png)
 background-size: 100%
 
 # Genetics
+
+---
+
+class: frimg
+background-image: url(figs/stats.png)
+background-size: 90%
+
+# Analysis
 
 ---
 
