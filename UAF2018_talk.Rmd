@@ -14,15 +14,17 @@ options(htmltools.dir.version = FALSE, servr.daemon = TRUE)
 library(huxtable)
 ```
 
-class: center, middle
+class: center, middle, inverse
 
-# IDENTIFYING PATTERNS AND PROCESSES IN ECOLOGICAL DATA AMONGST ALL THE NOISE
+# USING HIERARCHICAL MODELS TO IMPROVE OUR UNDERSTANDING OF FISHERIES & ECOSYSTEMS
 ## Mark Scheuerell
 _Northwest Fisheries Science Center<br>National Marine Fisheries Service<br>_
 <br>
 _School of Aquatic and Fishery Sciences<br>University of Washington<br>_
 
-.citation.blue-text[`r icon::fa("twitter")` @mark_scheuerell]
+.futnote[`r icon::fa("envelope")` mark.scheuerell@noaa.gov]
+
+.citation[`r icon::fa("twitter")` @mark_scheuerell]
 
 ---
 
