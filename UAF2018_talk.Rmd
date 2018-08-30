@@ -115,6 +115,19 @@ class: frimgB, center
 
 ---
 
+class: frimg, center
+
+background-image: url(figs/minnesota.jpg)
+background-size: 70%
+
+---
+
+class: center, middle
+
+# TRANSITION TO INTRO TOPICS
+
+---
+
 # Many advances in methods for naturalists
 
 .blue-text[
