@@ -499,7 +499,22 @@ class: inverse, center, middle
 # Conservation of Pacific salmon
 
 .blue-text[
-## 50% of salmon populations along the US West Coast are listed under the Endangered Species Act
+## 50% of salmon populations in the continental US are listed under the Endangered Species Act
+]
+
+---
+
+# Common causes &ndash; the 4 H's
+
+.blue-text[
+## Hydropower
+
+## Harvest
+
+## Habitat
+
+## Hatcheries
+
 ]
 
 ---
