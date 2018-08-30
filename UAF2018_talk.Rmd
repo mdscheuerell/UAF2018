@@ -31,15 +31,15 @@ _School of Aquatic and Fishery Sciences<br>University of Washington<br>_
 # Acknowledgments
 
 .large.blue-text[
-## Elizabeth Holmes, Jim Thorson, Eric Ward (NMFS)
+### Elizabeth Holmes, Jim Thorson, Eric Ward (NMFS)
 
-## Eric Buhle, Kevin See (Quantitative Consultants, Inc)
+### Eric Buhle, Kevin See (Quantitative Consultants, Inc)
 
-## Stephanie Hampton, Steve Katz (WSU)
+### Stephanie Hampton, Steve Katz (Washington St Univ)
 
-## Daniel Schindler, Ray Hilborn (UW)
+### Daniel Schindler, Ray Hilborn (Univ Washington)
 
-## Brice Semmens (Scripps)
+### Brice Semmens (Scripps)
 ]
 
 ---
@@ -125,6 +125,13 @@ class: frimgB, center
 
 <img src="figs/Mark_at_Rainbow_Cr.jpg", alt="", height=440, width=440>
 
+---
+
+class: frimgB, center, middle
+
+# something about my grad research
+
+---
 ---
 
 class: center, middle, inverse
