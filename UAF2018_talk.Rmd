@@ -122,6 +122,13 @@ background-size: 70%
 
 ---
 
+class: frimg, center
+
+background-image: url(figs/wisconsin.jpg)
+background-size: 75%
+
+---
+
 class: center, middle
 
 # TRANSITION TO INTRO TOPICS
@@ -630,6 +637,7 @@ background-size: 75%
 
 .left.blue-text[
 ### Drinking fountain: *Massachusetts Inst Tech*
+### MN map: *Chandler O’Leary (2013)*
 ### Janet Leigh: *Paramount Studios*
 ### Snake oil: *The Register*
 ]
