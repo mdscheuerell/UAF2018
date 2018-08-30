@@ -31,7 +31,7 @@ _School of Aquatic and Fishery Sciences<br>University of Washington<br>_
 # Acknowledgments
 
 .large.blue-text[
-## Elizabeth Holmes, Jim Thorson, Eric Ward (NOAA)
+## Elizabeth Holmes, Jim Thorson, Eric Ward (NMFS)
 
 ## Eric Buhle, Kevin See (Quantitative Consultants, Inc)
 
@@ -70,9 +70,8 @@ background-size: cover
 
 # A brief outline
 
-1. Background
+1. Introduction
 .small[
-* Early mathematical flute music
 * Emergence of cool stuff
 * The future of cool stuff
 * Can we get through all of this?
@@ -88,7 +87,6 @@ background-size: cover
 .small[
 * Some plots
 * Unrelated tangent
-* More plots
 * Really hard-to-read table
 * Horrendogram
 ]
@@ -107,25 +105,25 @@ background-size: cover
 
 ---
 
-class: frimgB, center
-
-# I was trained as a field ecologist
-
-<img src="figs/Mark_at_Rainbow_Cr.jpg", alt="", height=440, width=440>
-
----
-
-class: frimg, center
+class: frimg
 
 background-image: url(figs/minnesota.jpg)
 background-size: 70%
 
 ---
 
-class: frimg, center
+class: frimg
 
 background-image: url(figs/wisconsin.jpg)
 background-size: 75%
+
+---
+
+class: frimgB, center
+
+# I was trained as a field ecologist
+
+<img src="figs/Mark_at_Rainbow_Cr.jpg", alt="", height=440, width=440>
 
 ---
 
