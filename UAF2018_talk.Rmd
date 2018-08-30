@@ -28,7 +28,7 @@ _School of Aquatic and Fishery Sciences<br>University of Washington<br>_
 
 ---
 
-# Acknowledgments - colleagues
+# Acknowledgments
 
 .large.blue-text[
 ## Elizabeth Holmes, Jim Thorson, Eric Ward (NOAA)
@@ -37,7 +37,23 @@ _School of Aquatic and Fishery Sciences<br>University of Washington<br>_
 
 ## Stephanie Hampton, Steve Katz (WSU)
 
+## Daniel Schindler, Ray Hilborn (UW)
+
 ## Brice Semmens (Scripps)
+]
+
+---
+
+# Acknowledgments
+
+.large.blue-text[
+## Post-docs
+
+## Grad students
+
+## Undergrads
+
+## Many others
 ]
 
 ---
