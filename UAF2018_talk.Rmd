@@ -461,8 +461,8 @@ class: frimg
 ### This simple model can be used for 5+ unique applications!
 ]
 
-$$\mathbf{x}_t = \mathbf{B} \mathbf{x}_{t-1} + \mathbf{w}_t \\
-  \mathbf{y}_t = \mathbf{Z} \mathbf{x}_t + \mathbf{v}_t$$
+$$\LARGE \mathbf{x}_t = \mathbf{B} \mathbf{x}_{t-1} + \mathbf{w}_t \\
+  \LARGE \mathbf{y}_t = \mathbf{Z} \mathbf{x}_t + \mathbf{v}_t$$
 
 ---
 
@@ -479,7 +479,7 @@ class: inverse, center, middle
 ## .blue-text[Code-your-own] (JAGS, Stan, greta)
 
 .footnoteSm.gray-text[
-<sup>\*</sup>See Holmes, Ward & Scheuerell (2014) for *lots* of worked examples
+<sup>\*</sup>See Holmes, Ward & Scheuerell (2018) for *lots* of worked examples
 ]
 
 ---
