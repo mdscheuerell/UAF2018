@@ -127,21 +127,27 @@ class: frimgB, center
 
 ---
 
-class: center, middle
+class: center, middle, inverse
 
-# TRANSITION TO INTRO TOPICS
+# Many advances in sampling and analysis
 
 ---
 
-# Many advances in methods for naturalists
+class: frimg
 
-.blue-text[
-## Genetics
+background-image: url(figs/remote_sensing.jpg)
+background-size: 100%
 
-## Remote sensing
+# Remote sensing
 
-## Statistics
-]
+---
+
+class: frimg, right, middle
+
+background-image: url(figs/dna.png)
+background-size: 100%
+
+# Genetics
 
 ---
 
@@ -636,6 +642,9 @@ background-size: 75%
 .left.blue-text[
 ### Drinking fountain: *Massachusetts Inst Tech*
 ### MN map: *Chandler O’Leary (2013)*
+### WI map: *Cat's Meow Village*
+### LIDAR: *NOAA*
+### DNA: *fizzgig (2016)*
 ### Janet Leigh: *Paramount Studios*
 ### Snake oil: *The Register*
 ]
