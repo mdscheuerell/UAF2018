@@ -132,7 +132,6 @@ class: frimgB, center, middle
 # something about my grad research
 
 ---
----
 
 class: center, middle, inverse
 
@@ -168,7 +167,7 @@ background-size: 90%
 
 class: center
 
-# *Methods in Ecology and Evolution* .small[(Est. 2010)]
+# *Methods in Ecology and Evolution*
 
 ```{r timeseries, dpi=300, fig.height=4, fig.width=6, out.height="80%", out.width="80%", fig.align='center', echo=FALSE}
 mee <- data.frame(yr=seq(2010,2016),
