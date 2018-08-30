@@ -15,23 +15,14 @@ library(huxtable)
 ```
 
 class: center, middle
-# THE DEVELOPMENT AND APPLICATION OF NEW TOOLS IN QUANTITATIVE ECOLOGY
+
+# IDENTIFYING PATTERNS AND PROCESSES IN ECOLOGICAL DATA AMONGST ALL THE NOISE
 ## Mark Scheuerell
-_Northwest Fisheries Science Center<br>National Oceanic and Atmospheric Administration<br>Seattle, WA_
+_Northwest Fisheries Science Center<br>National Marine Fisheries Service<br>_
+<br>
+_School of Aquatic and Fishery Sciences<br>University of Washington<br>_
 
-.futnote.blue-text[`r icon::fa("twitter")` @mark_scheuerell]
-
-.citation.blue-text[\#WSN2017]
-
----
-
-# Acknowledgments - WSN
-
-.large.blue-text[
-## Jenn Caselle
-
-## Brian Gaylord
-]
+.citation.blue-text[`r icon::fa("twitter")` @mark_scheuerell]
 
 ---
 
