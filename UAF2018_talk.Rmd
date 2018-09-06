@@ -670,28 +670,28 @@ background-size: 75%
 ## Software & hardware improvements open new doors
 ]
 
-.futnote.blue-text[`r icon::fa("twitter")` @mark_scheuerell]
+.futnote.blue-text[`r icon::fa("envelope")` mark.scheuerell@noaa.gov]
 
-.citation.blue-text[\#WSN2017]
+.citation.blue-text[`r icon::fa("twitter")` @mark_scheuerell]
 
 ---
 
 ##  Slide deck
 
-### https://github.com/mdscheuerell/WSN2017
+.left.blue-text[https://github.com/mdscheuerell/UAF2018]
 
 ## Image sources
 
 .left.blue-text[
-### Drinking fountain: *Massachusetts Inst Tech*
-### MN map: *Chandler O’Leary (2013)*
-### WI map: *Cat's Meow Village*
-### LIDAR: *NOAA*
-### DNA: *fizzgig (2016)*
-### Janet Leigh: *Paramount Studios*
-### Snake oil: *The Register*
+Drinking fountain: *Massachusetts Inst Tech*  
+MN map: *Chandler O’Leary (2013)*  
+WI map: *Cat's Meow Village*  
+LIDAR: *NOAA*  
+DNA: *fizzgig (2016)*  
+Janet Leigh: *Paramount Studios*  
+Snake oil: *The Register*  
 ]
 
-.futnote.blue-text[`r icon::fa("twitter")` @mark_scheuerell]
+.futnote[`r icon::fa("envelope")` mark.scheuerell@noaa.gov]
 
-.citation.blue-text[\#WSN2017]
+.citation[`r icon::fa("twitter")` @mark_scheuerell]
