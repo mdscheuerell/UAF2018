@@ -28,20 +28,6 @@ _School of Aquatic and Fishery Sciences<br>University of Washington<br>_
 
 ---
 
-class: center, middle, inverse
-
-# USING HIERARCHICAL MODELS TO IMPROVE OUR UNDERSTANDING OF FISHERIES & ECOSYSTEMS
-## Mark Scheuerell
-_Northwest Fisheries Science Center<br>National Marine Fisheries Service<br>_
-<br>
-_School of Aquatic and Fishery Sciences<br>University of Washington<br>_
-
-.futnote[`r icon::fa("envelope")` mark.scheuerell@noaa.gov]
-
-.citation[`r icon::fa("twitter")` @mark_scheuerell]
-
----
-
 # Acknowledgments
 
 .large.blue-text[
