@@ -170,15 +170,15 @@ class: center
 # *Methods in Ecology and Evolution*
 
 ```{r timeseries, dpi=300, fig.height=4, fig.width=6, out.height="80%", out.width="80%", fig.align='center', echo=FALSE}
-mee <- data.frame(yr=seq(2010,2016),
-                  issues=c(4,6,6,12,12,12,12),
-                  imp=c(NA,5.1,6,6.6,7.4,8.1,8.6))
+mee <- data.frame(yr=seq(2010,2017),
+                  issues=c(4,6,6,12,12,12,12,12),
+                  imp=c(NA,5.1,6,6.6,7.4,8.1,8.6,9.9))
 
 pd <- as.matrix(mee[,-1])
 
 par(mfrow=c(2,1), mai=c(0.3,0.4,0.3,0), omi=c(0.1,0,0,0))
 ## top panel
-bp <- barplot(height=rep(NA,7), las=1, ylim=c(0,13),
+bp <- barplot(height=rep(NA,8), las=1, ylim=c(0,13),
               col="#488fdf", border=NA, space=1,
               ylab="",
               cex.lab=1.4, yaxt="n")
@@ -191,18 +191,18 @@ barplot(height=mee$issues, las=1, add=TRUE,
         cex.lab=1.4, yaxt="n")
 axis(2, at=seq(0,12,3), las=1, tick=FALSE, cex.axis=1.2)
 ## bottom panel
-barplot(height=rep(NA,7), las=1,
+barplot(height=rep(NA,8), las=1,
         col="darkblue", border=NA, space=1,
-        ylim=c(0,9),
+        ylim=c(0,11),
         ylab="", cex.lab=1.4, yaxt="n")
-abline(h=seq(0,8,2), col="gray")
-text(0, 1.1*par()$usr[4], cex=1.4,
+abline(h=seq(0,10,2), col="gray")
+text(0, 1.15*par()$usr[4], cex=1.4,
      "Impact factor", xpd=NA, pos=4)
 barplot(height=mee$imp, las=1, names.arg=mee$yr, add=TRUE,
         col="#ff8100", space=1, border=NA,
         cex.names=1.2,
         ylab="", cex.lab=1.4, yaxt="n")
-axis(2, at=seq(0,8,2), las=1, tick=FALSE, cex.axis=1.2)
+axis(2, at=seq(0,10,2), las=1, tick=FALSE, cex.axis=1.2)
 text(bp[1],1,"NA",col="darkgray", adj=c(0.5,0.5))
 ```
 
