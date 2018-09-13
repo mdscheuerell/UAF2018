@@ -53,7 +53,7 @@ _School of Aquatic and Fishery Sciences<br>University of Washington<br>_
 
 ## Undergrads
 
-## Many others
+## _Many_ others
 ]
 
 ---
@@ -148,7 +148,7 @@ background-size: 100%
 
 ---
 
-class: frimg, right, middle
+class: frimg, center
 
 background-image: url(figs/dna.png)
 background-size: 100%
@@ -157,7 +157,8 @@ background-size: 100%
 
 ---
 
-class: frimg
+class: frimg, right
+
 background-image: url(figs/stats.png)
 background-size: 90%
 
