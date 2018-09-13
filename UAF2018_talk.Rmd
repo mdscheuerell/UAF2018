@@ -322,10 +322,12 @@ text("Time or space", x=cc/2, y=-ss/2+ss*2, xpd=NA, pos=1, cex=2)
 
 ---
 
-class: center, middle, inverse
+class: frimg, center, bottom, black-back
+background-image: url(figs/venice_carnival.jpg)
+background-size: 100%
 
-# Revealing the state of nature
-# requires some observations
+# .white-text[Revealing the truth requires observations]
+### .black-text[-]
 
 ---
 
@@ -507,7 +509,7 @@ class: inverse, center, middle
 
 ---
 
-class: frimg
+class: frimg, inverse-black
 background-image: url(figs/snake_oil.jpg)
 background-size: cover
 
