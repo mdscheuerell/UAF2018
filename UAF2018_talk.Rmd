@@ -390,7 +390,7 @@ class: inverse, center, middle
 
 ## 1. Can combine many different .purple-text[data types]
 
-.purple-text[
+.center.purple-text[
 ### Changes in observers or sensors
 
 ### Varying survey locations & effort
@@ -404,7 +404,7 @@ class: inverse, center, middle
 
 ## 2. .gray-text[Missing data] are easily accommodated
 
-```{r obs_NA, dpi=300, fig.height=4, fig.width=8, out.height="100%", out.width="100%", fig.align='center', echo=FALSE, warning=FALSE}
+```{r obs_NA, dpi=300, fig.height=4, fig.width=8, out.height="90%", out.width="90%", fig.align='center', echo=FALSE, warning=FALSE}
 par(mai=c(0.8,0.8,0,0), omi=rep(0,4))
 ## arrow locs
 x0t <- seq(ss, by=2*ss, len=3)
@@ -450,7 +450,7 @@ class: frimg
 
 ## 3. Improved accuracy & precision
 
-.img-left-land[![](figs/Jonsen2016.png)]
+.img-center-land[![](figs/Jonsen2016.png)]
 
 ---
 
