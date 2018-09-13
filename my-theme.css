@@ -119,6 +119,9 @@ a, a > code {
   color: #ffffff;
   text-shadow: 0 0 20px #333;
 }
+.black-back {
+  background-color: #000000;
+}
 .title-slide h1 {
   color: #F7F8FA;
 }
