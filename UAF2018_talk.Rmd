@@ -127,9 +127,17 @@ class: frimgB, center
 
 ---
 
-class: frimgB, center, middle
+# My early research was largely empirical
 
-# something about my grad research
+.green-text[
+## Nutrient limitation of lake productivity
+]
+.blue-text.center[
+## Vertical migration in juvenile sockeye salmon
+]
+.orange-text.right[
+## Trophic interactions among stream fishes
+]
 
 ---
 
