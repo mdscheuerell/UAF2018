@@ -549,6 +549,23 @@ class: inverse, center, middle
 
 ---
 
+# Common causes &ndash; the 4 H's
+
+.green-text.center[
+## Hydropower
+]
+.blue-text.center[
+## Hatcheries
+]
+.orange-text.center[
+## Habitat
+]
+.purple-text.center[
+## Harvest
+]
+
+---
+
 class: frimg
 background-image: url(figs/suppl_scheme.png)
 background-position: 50% 85%
