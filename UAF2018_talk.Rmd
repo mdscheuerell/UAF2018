@@ -620,6 +620,20 @@ background-size: 70%
 
 ---
 
+slide: left
+
+# A model from finance
+
+## .blue-text[State model]
+
+Density<sub><i>t</i></sub> = Density<sub><i>t</i>-1</sub> + Indicator<sub><i>t</i></sub> + error<sub><i>t</i></sub>
+
+## .purple-text[Observation model]
+
+Data<sub><i>t</i></sub> = Density<sub><i>t</i></sub> + error<sub><i>t</i></sub>
+
+---
+
 class: frimg
 background-image: url(figs/suppl_eff.png)
 background-position: 50% 37%
