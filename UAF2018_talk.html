@@ -264,12 +264,10 @@ class: center, middle, inverse
 
 ---
 
-class: frimg, center, bottom, black-back
+class: frimg, center, bottom, inverse-black
 background-image: url(figs/venice_carnival.jpg)
+background-position: 50% 50%
 background-size: 100%
-
-# .white-text[Revealing the truth requires observations]
-### .black-text[-]
 
 ---
 
@@ -374,12 +372,12 @@ class: inverse, center, middle
 
 # Many software options
 
-## .blue-text[Canned **R** packages] (MARSS&lt;sup&gt;*&lt;/sup&gt;, dlm, vars)
+## .blue-text[Canned **R** packages] (dlm, vars, MARSS&lt;sup&gt;*&lt;/sup&gt;)
 
 ## .blue-text[Code-your-own] (JAGS, Stan, greta)
 
 .footnoteSm.gray-text[
-&lt;sup&gt;\*&lt;/sup&gt;See Holmes, Ward &amp; Scheuerell (2018) for *lots* of worked examples
+&lt;sup&gt;\*&lt;/sup&gt;See Holmes, Ward, Scheuerell (2018) _Analysis of multivariate time-series using the MARSS package_
 ]
 
 ---
@@ -392,7 +390,7 @@ background-size: cover
 
 class: inverse, center, middle
 
-# AN EXAMPLE
+# SOME EXAMPLES
 
 ---
 
@@ -404,17 +402,31 @@ class: inverse, center, middle
 
 ---
 
+class: center
+
 # Common causes &amp;ndash; the 4 H's
 
+.pull-left.middle[
+.green-text[
+# Hydropower
+]
+.wh-text[
+-
+]
+.purple-text[
+# Harvest
+]
+]
+.pull-right[
+.orange-text[
+# Habitat
+]
+.wh-text[
+-
+]
 .blue-text[
-## Hydropower
-
-## Harvest
-
-## Habitat
-
-## Hatcheries
-
+# Hatcheries
+]
 ]
 
 ---
@@ -447,25 +459,57 @@ background-size: 90%
 ---
 
 class: frimg
-background-image: url(figs/suppl_ts.png)
-background-position: 70% 45%
+background-image: url(figs/density_ts.png)
+background-position: 50% 25%
 background-size: 70%
 
-.topleft.blue-text[
-## Supplementation is ad hoc
+# Density of spawners over time
+
+---
+
+class: frimg
+background-image: url(figs/suppl_ts.png)
+background-position: 50% 25%
+background-size: 70%
+
+# Ad hoc design
+
+---
+
+# Complications for analysis
+
+.blue-text[
+## No randomization
+
+## Different start/stop &amp; duration
+
+## Changing variance
 ]
 
 ---
 
 class: frimg
 background-image: url(figs/suppl_eff.png)
-background-position: 50% 35%
+background-position: 50% 37%
 background-size: 120%
 
-# Effect size is rather subtle
+# Supplementation effect is rather subtle
 
-.blue-text[
-## Probability of positive effect = 0.73
+.blue-text.center[
+### Probability of positive effect `\(\small \approx\)` 0.7
+]
+
+.citationT.gray-text[Scheuerell et al. (2015) *Ecol* &amp; *Evol* &amp;nbsp; 5:2115–2125]
+
+---
+
+class: frimg
+background-image: url(figs/yr_effects.png)
+background-position: 50% 55%
+background-size: 80%
+
+.orange-text[
+## Common year effects overshadow intervention
 ]
 
 .citationT.gray-text[Scheuerell et al. (2015) *Ecol* &amp; *Evol* &amp;nbsp; 5:2115–2125]
@@ -581,6 +625,15 @@ Snake oil: *The Register*
 .futnote[<i class="fa  fa-envelope "></i> mark.scheuerell@noaa.gov]
 
 .citation[<i class="fa  fa-twitter "></i> @mark_scheuerell]
+
+---
+
+class: frimg, center, bottom, black-back
+background-image: url(figs/venice_carnival.jpg)
+background-size: 100%
+
+# .white-text[Revealing the truth requires observations]
+### .black-text[-]
     </textarea>
 <script src="libs/remark-latest.min.js"></script>
 <script>var slideshow = remark.create({
