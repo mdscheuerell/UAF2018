@@ -322,17 +322,17 @@ text("Time or space", x=cc/2, y=-ss/2+ss*2, xpd=NA, pos=1, cex=2)
 
 ---
 
-class: frimg, center, bottom, black-back
-background-image: url(figs/venice_carnival.jpg)
-background-size: 100%
-
----
-
 class: center, middle, inverse
 
 # Revealing the true state of nature
-
 # requires some observations
+
+---
+
+class: frimg, center, bottom, inverse-black
+background-image: url(figs/venice_carnival.jpg)
+background-position: 50% 50%
+background-size: 100%
 
 ---
 
@@ -504,13 +504,12 @@ class: inverse, center, middle
 
 # Many software options
 
-## .blue-text[Canned **R** packages] (MARSS<sup>*</sup>, dlm, vars)
+## .blue-text[Canned **R** packages] (dlm, vars, MARSS<sup>*</sup>)
 
 ## .blue-text[Code-your-own] (JAGS, Stan, greta)
 
 .footnoteSm.gray-text[
-<sup>\*</sup>See Holmes, Ward, Scheuerell (2018) _Analysis of multivariate
-time-series using the MARSS package_
+<sup>\*</sup>See Holmes, Ward, Scheuerell (2018) _Analysis of multivariate time-series using the MARSS package_
 ]
 
 ---
@@ -523,7 +522,7 @@ background-size: cover
 
 class: inverse, center, middle
 
-# AN EXAMPLE
+# SOME EXAMPLES
 
 ---
 
