@@ -608,6 +608,18 @@ background-size: 70%
 
 ---
 
+# Complications for analysis
+
+.blue-text[
+## No randomized design
+
+## Different start/stop & duration
+
+## Changing variance & correlated errors
+]
+
+---
+
 class: frimg
 background-image: url(figs/suppl_eff.png)
 background-position: 50% 37%
