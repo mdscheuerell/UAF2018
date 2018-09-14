@@ -534,19 +534,31 @@ class: inverse, center, middle
 
 ---
 
+class: center
+
 # Common causes &ndash; the 4 H's
 
-.green-text.center[
-## Hydropower
+.pull-left.middle[
+.green-text[
+# Hydropower
 ]
-.blue-text.center[
-## Hatcheries
+.wh-text[
+-
 ]
-.orange-text.center[
-## Habitat
+.purple-text[
+# Harvest
 ]
-.purple-text.center[
-## Harvest
+]
+.pull-right[
+.orange-text[
+# Habitat
+]
+.wh-text[
+-
+]
+.blue-text[
+# Hatcheries
+]
 ]
 
 ---
