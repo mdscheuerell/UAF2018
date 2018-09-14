@@ -322,12 +322,17 @@ text("Time or space", x=cc/2, y=-ss/2+ss*2, xpd=NA, pos=1, cex=2)
 
 ---
 
+class: center, middle, inverse
+
+# Revealing the true state of nature
+
+# requires some observations
+
+---
+
 class: frimg, center, bottom, black-back
 background-image: url(figs/venice_carnival.jpg)
 background-size: 100%
-
-# .white-text[Revealing the truth requires observations]
-### .black-text[-]
 
 ---
 
@@ -706,3 +711,13 @@ Snake oil: *The Register*
 .futnote[`r icon::fa("envelope")` mark.scheuerell@noaa.gov]
 
 .citation[`r icon::fa("twitter")` @mark_scheuerell]
+
+---
+
+class: frimg, center, bottom, black-back
+background-image: url(figs/venice_carnival.jpg)
+background-size: 100%
+
+# .white-text[Revealing the truth requires observations]
+### .black-text[-]
+
