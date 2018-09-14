@@ -601,19 +601,19 @@ background-image: url(figs/suppl_eff.png)
 background-position: 50% 37%
 background-size: 120%
 
-# Effect size is rather subtle
+# Supplementation effect is rather subtle
 
 .blue-text.center[
-### Probability of positive effect = 0.73
+### Probability of positive effect $\small \approx$ 0.7
 ]
 
 .citationT.gray-text[Scheuerell et al. (2015) *Ecol* & *Evol* &nbsp; 5:2115–2125]
 
 ---
 
-class: frimg, center
+class: frimg
 background-image: url(figs/yr_effects.png)
-background-position: 50% 60%
+background-position: 50% 55%
 background-size: 80%
 
 .orange-text[
