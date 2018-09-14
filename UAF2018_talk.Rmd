@@ -611,6 +611,19 @@ background-size: 120%
 
 ---
 
+class: frimg, center
+background-image: url(figs/yr_effects.png)
+background-position: 50% 60%
+background-size: 80%
+
+.orange-text[
+## Common year effects overshadow intervention
+]
+
+.citationT.gray-text[Scheuerell et al. (2015) *Ecol* & *Evol* &nbsp; 5:2115–2125]
+
+---
+
 class: inverse, center, middle
 
 # ANOTHER EXAMPLE
