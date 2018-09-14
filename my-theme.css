@@ -46,6 +46,7 @@ a, a > code {
   color: #ffffff;
   text-shadow: 2px 2px 6px #000000;
 }
+.wh-text { color: #ffffff }
 .gray-text { color: #656565 }
 .red-text { color: #c10101 }
 .orange-text { color: #ff8100 }
