@@ -623,7 +623,7 @@ background-size: 70%
 
 # And now a word from our sponsor...
 
-```{r, echo=FALSE, dpi=300, fig.height=4.5, fig.width=8, out.height="100%", out.width="100%", fig.align='center'}
+```{r sale_ts_1, echo=FALSE, dpi=300, fig.height=4.5, fig.width=8, out.height="100%", out.width="100%", fig.align='center'}
 tstar <- 11
 
 par(mai=c(0.9,0.9,0.1,0.1), omi=c(0,0,0,0))
@@ -647,7 +647,7 @@ lines(seq(20), x2, type="o", pch=16, cex=1.2, las=1, col="dodgerblue", lwd=2)
 
 # And now a word from our sponsor...
 
-```{r, echo=FALSE, dpi=300, fig.height=4.5, fig.width=8, out.height="100%", out.width="100%", fig.align='center'}
+```{r sale_ts_2, echo=FALSE, dpi=300, fig.height=4.5, fig.width=8, out.height="100%", out.width="100%", fig.align='center'}
 tstar <- 11
 
 par(mai=c(0.9,0.9,0.1,0.1), omi=c(0,0,0,0))
@@ -662,16 +662,16 @@ lines(seq(20), x2, type="o", pch=16, cex=1.2, las=1, col="dodgerblue", lwd=2)
 scl <- 0.07
 aB <- (par()$usr[4] - par()$usr[3])*scl
 arrows(x0=tstar,y0=par()$usr[3]-aB,y1=par()$usr[3],
-       length=0.1, col="red", xpd=TRUE, lwd=2)
+       length=0.1, col="darkorange", xpd=TRUE, lwd=2)
 text(tstar,par()$usr[3]-aB, "T",
-	 cex=1.5, col="red", pos=1, xpd=TRUE)
+	 cex=1.7, col="darkorange", pos=1, xpd=TRUE)
 ```
 
 ---
 
 # And now a word from our sponsor...
 
-```{r, echo=FALSE, dpi=300, fig.height=4.5, fig.width=8, out.height="100%", out.width="100%", fig.align='center'}
+```{r sale_ts_3, echo=FALSE, dpi=300, fig.height=4.5, fig.width=8, out.height="100%", out.width="100%", fig.align='center'}
 tstar <- 11
 
 par(mai=c(0.9,0.9,0.1,0.1), omi=c(0,0,0,0))
@@ -693,14 +693,14 @@ lines(seq(20), x2, type="o", pch=16, cex=1.2, las=1, col="dodgerblue", lwd=2)
 scl <- 0.07
 aB <- (par()$usr[4] - par()$usr[3])*scl
 arrows(x0=tstar,y0=par()$usr[3]-aB,y1=par()$usr[3],
-       length=0.1, col="red", xpd=TRUE, lwd=2)
+       length=0.1, col="darkorange", xpd=TRUE, lwd=2)
 text(tstar,par()$usr[3]-aB, "T",
-	 cex=1.5, col="red", pos=1, xpd=TRUE)
+	 cex=1.7, col="darkorange", pos=1, xpd=TRUE)
 ```
 
 ---
 
-# A model from finance
+# A model from advertising
 
 ## .blue-text.under[State model]
 
@@ -708,7 +708,7 @@ text(tstar,par()$usr[3]-aB, "T",
 
 ---
 
-# A model from finance
+# A model from advertising
 
 ## .blue-text.under[State model]
 
@@ -740,7 +740,7 @@ background-size: 120%
 # Supplementation effect is rather subtle
 
 .blue-text.center[
-### Probability of positive effect $\small \approx$ 0.7
+### Probability of positive effect is ~0.7
 ]
 
 .citationT.gray-text[Scheuerell et al. (2015) *Ecol* & *Evol* &nbsp; 5:2115–2125]
