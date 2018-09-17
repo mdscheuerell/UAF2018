@@ -820,6 +820,23 @@ background-size: 75%
 
 ---
 
+# Data reduction techniques
+
+.blue-text[
+## Considering both space & time in Bering Sea
+]
+
+---
+
+class: frimg
+background-image: url(figs/sdfa.png)
+background-position: 50% 40%
+background-size: 60%
+
+.citationT.gray-text[Thorson et al. (2016) *Global* *Ecol* & *Biogeog* 6:627–637]
+
+---
+
 # Other applications of hierarchical models
 
 ## .blue-text[Identifying metapopulation structure]
