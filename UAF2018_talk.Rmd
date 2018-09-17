@@ -786,6 +786,32 @@ class: inverse, center, middle
 
 ---
 
+# Declines in Alaskan king salmon
+
+.blue-text[
+## Are the observed patterns statewide?
+]
+
+---
+
+class: frimg
+background-image: url(figs/dfa_1.png)
+background-position: 50% 40%
+background-size: 70%
+
+---
+
+class: frimg
+background-image: url(figs/dfa_2.png)
+background-position: 50% 60%
+background-size: 70%
+
+# Two declining trends
+
+.citationT.gray-text[Ohlberger et al. (2016) *Ecosphere* 7:e01333]
+
+---
+
 # Groundfish surveys along the West Coast
 
 .blue-text[
@@ -798,6 +824,10 @@ class: inverse, center, middle
 
 .blue-text[
 ## Can we detect common spatial patterns in the data?
+]
+
+.right[
+### An example of California Current rockfish (20 spp, 10 years)
 ]
 
 ---
