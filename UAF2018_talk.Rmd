@@ -621,6 +621,42 @@ background-size: 70%
 
 ---
 
+# And now a word from our sponsor...
+
+```{r, echo=FALSE, dpi=300, fig.height=4.5, fig.width=8, out.height="100%", out.width="100%", fig.align='center'}
+tstar <- 11
+
+par(mai=c(0.9,0.9,0.1,0.1), omi=c(0,0,0,0))
+
+set.seed(666)
+
+x1 <- cumsum(rnorm(20)) + 5
+
+dd <- c(rep(0,11), rep(1.5,9))
+x2 <- x1 + dd
+
+plot.ts(x1, type="n", pch=16, las=1, 
+        xlab="", ylab="", cex.axis=1.3)
+mtext(side=1, "Time", line=3, cex=1.5)
+mtext(side=2, "Sales index", line=3, cex=1.5)
+
+segments(tstar+1, x1[tstar+1], tstar+1, x2[tstar+1], col="darkorange", lty="dashed", lwd=2)
+
+text(tstar+1, (x1[tstar+1]+x2[tstar+1])/2, expression(italic(S)),
+	 cex=1.7, col="darkorange", adj=c(-0.1,0))
+
+lines(seq(20), x1, type="o", pch=16, cex=1.2, las=1, col="darkgray", lwd=2)
+lines(seq(20), x2, type="o", pch=16, cex=1.2, las=1, col="darkblue", lwd=2)
+
+scl <- 0.07
+aB <- (par()$usr[4] - par()$usr[3])*scl
+arrows(x0=tstar,y0=par()$usr[3]-aB,y1=par()$usr[3], length=0.1, col="red",xpd=TRUE)
+text(tstar,par()$usr[3]-aB,expression(paste(italic(t),"*")),
+	 cex=1.5, col="red", pos=1, xpd=TRUE)
+```
+
+---
+
 # A model from finance
 
 ## .blue-text.under[State model]
