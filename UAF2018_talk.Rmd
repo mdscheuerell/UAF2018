@@ -536,28 +536,29 @@ class: inverse, center, middle
 
 class: center
 
-# Common causes &ndash; the 4 H's
+
+# .large[ The 4 H's ]
 
 .pull-left.middle[
 .green-text[
-# Hydropower
+# .large[ Hydropower ]
 ]
 .wh-text[
 -
 ]
 .purple-text[
-# Harvest
+# .large[ Harvest ]
 ]
 ]
 .pull-right[
 .orange-text[
-# Habitat
+# .large[ Habitat ]
 ]
 .wh-text[
 -
 ]
 .blue-text[
-# Hatcheries
+# .large[ Hatcheries ]
 ]
 ]
 
