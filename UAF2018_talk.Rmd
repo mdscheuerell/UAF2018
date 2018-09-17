@@ -759,6 +759,17 @@ background-size: 80%
 
 ---
 
+class: frimg, inverse
+background-image: url(figs/dwh.jpg)
+background-position: 50% 50%
+background-size: 100%
+
+# Similar application to Deepwater Horizon
+
+.citationT.white-text[Scheuerell et al. _in prep_]
+
+---
+
 class: inverse, center, middle
 
 # ANOTHER EXAMPLE
@@ -862,7 +873,8 @@ WI map: *Cat's Meow Village*
 LIDAR: *NOAA*  
 DNA: *fizzgig (2016)*  
 Janet Leigh: *Paramount Studios*  
-Snake oil: *The Register*  
+Snake oil: *The Register* 
+DWH: *US Coast Guard*
 ]
 
 .futnote[`r icon::fa("envelope")` mark.scheuerell@noaa.gov]
