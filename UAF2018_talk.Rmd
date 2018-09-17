@@ -797,7 +797,7 @@ class: inverse, center, middle
 # Data reduction techniques
 
 .blue-text[
-## Can we detect a few common patterns in the data?
+## Can we detect common spatial patterns in the data?
 ]
 
 ---
@@ -823,7 +823,11 @@ background-size: 75%
 # Data reduction techniques
 
 .blue-text[
-## Considering both space & time in Bering Sea
+## How do spatial patterns change over time?
+]
+
+.right[
+### An example of Bering Sea groundfishes (10 spp, 30+ years)
 ]
 
 ---
@@ -833,7 +837,7 @@ background-image: url(figs/sdfa.png)
 background-position: 50% 40%
 background-size: 60%
 
-.citationT.gray-text[Thorson et al. (2016) *Global* *Ecol* & *Biogeog* 6:627–637]
+.citationT.gray-text[Thorson et al. (2016) *Global* *Ecol* & *Biogeogr* 6:627–637]
 
 ---
 
@@ -879,18 +883,18 @@ background-size: 60%
 
 ##  Slide deck
 
-.left.blue-text[https://github.com/mdscheuerell/UAF2018]
+.blue-text[https://github.com/mdscheuerell/UAF2018]
 
 ## Image sources
 
-.left.blue-text[
+.small.blue-text[
 Drinking fountain: *Massachusetts Inst Tech*  
 MN map: *Chandler O’Leary (2013)*  
 WI map: *Cat's Meow Village*  
 LIDAR: *NOAA*  
 DNA: *fizzgig (2016)*  
 Janet Leigh: *Paramount Studios*  
-Snake oil: *The Register* 
+Snake oil: *The Register*  
 DWH: *US Coast Guard*
 ]
 
