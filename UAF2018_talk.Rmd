@@ -626,11 +626,25 @@ slide: left
 
 ## .blue-text[State model]
 
-Density<sub><i>t</i></sub> = Density<sub><i>t</i>-1</sub> + Indicator<sub><i>t</i></sub> + error<sub><i>t</i></sub>
+## Density<sub><i>t</i></sub> = Density<sub><i>t</i>-1</sub> + Indicator<sub><i>t</i></sub> + error<sub><i>t</i></sub>
 
 ## .purple-text[Observation model]
 
-Data<sub><i>t</i></sub> = Density<sub><i>t</i></sub> + error<sub><i>t</i></sub>
+## Data<sub><i>t</i></sub> = Density<sub><i>t</i></sub> + error<sub><i>t</i></sub>
+
+---
+
+slide: left
+
+# A model from finance
+
+## .blue-text.under[State model]
+
+## .blue-text[Density]<sub><i>t</i></sub> = .blue-text[Density]<sub><i>t</i>-1</sub> + .orange-text[Indicator]<sub><i>t</i></sub> + .red-text[error]<sub><i>t</i></sub>
+
+## .purple-text.under[Observation model]
+
+## .purple-text[Data]<sub><i>t</i></sub> = .blue-text[Density]<sub><i>t</i></sub> + .red-text[error]<sub><i>t</i></sub>
 
 ---
 
