@@ -778,18 +778,33 @@ class: inverse, center, middle
 
 # Emergence of high-dimension data
 
-.blue-text[
+.green-text[
 ## Remote sensing
+]
+.blue-text.center[
 ## Citizen science
+]
+.orange-text.right[
 ## Large-scale surveys
 ]
+
+---
+
+class: inverse, center, middle
+
+# How can we make sense of all of this?
+
+---
+
+# Data reduction techniques
+
 
 ---
 
 # Declines in Alaskan king salmon
 
 .blue-text[
-## Are the observed patterns statewide?
+## Are the observed patterns indeed statewide?
 ]
 
 ---
