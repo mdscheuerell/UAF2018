@@ -801,10 +801,22 @@ class: inverse, center, middle
 
 ---
 
-# Declines in Alaskan king salmon
+# Salmon returns & productivity
 
 .blue-text[
-## Are the observed patterns indeed statewide?
+## Trying to understand when & why stocks covary
+]
+
+---
+
+# Data reduction techniques
+
+.blue-text[
+## Can we detect common trends in the data?
+]
+
+.right[
+### An example of Alaskan king salmon (15 popns, 25+ years)
 ]
 
 ---
