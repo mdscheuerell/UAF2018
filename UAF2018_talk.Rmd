@@ -667,7 +667,7 @@ lines(seq(20), x2, type="o", pch=16, cex=1.2, las=1, col="dodgerblue", lwd=2)
 
 scl <- 0.07
 aB <- (par()$usr[4] - par()$usr[3])*scl
-arrows(x0=tstar,y0=par()$usr[3]-aB,y1=par()$usr[3],
+arrows(x0=tstar,y0=par()$usr[3]-aB,y1=par()$usr[3]*0.99,
        length=0.1, col="darkorange", xpd=TRUE, lwd=2)
 text(tstar,par()$usr[3]-aB, "T",
 	 cex=1.7, col="darkorange", pos=1, xpd=TRUE)
@@ -675,7 +675,7 @@ text(tstar,par()$usr[3]-aB, "T",
 
 ---
 
-# How much did .orange-text[advertising] affect sales?
+# How much did .orange-text[advertising] increase sales?
 
 ```{r sale_ts_3, echo=FALSE, dpi=300, fig.height=4.5, fig.width=8, out.height="100%", out.width="100%", fig.align='center'}
 tstar <- 11
@@ -698,10 +698,10 @@ lines(seq(20), x2, type="o", pch=16, cex=1.2, las=1, col="dodgerblue", lwd=2)
 
 scl <- 0.07
 aB <- (par()$usr[4] - par()$usr[3])*scl
-arrows(x0=tstar,y0=par()$usr[3]-aB,y1=par()$usr[3],
-       length=0.1, col="darkorange", xpd=TRUE, lwd=2)
+arrows(x0=tstar,y0=par()$usr[3]-aB,y1=par()$usr[3]*0.99,
+       length=0.1, col="darkgray", xpd=TRUE, lwd=2)
 text(tstar,par()$usr[3]-aB, "T",
-	 cex=1.7, col="darkorange", pos=1, xpd=TRUE)
+	 cex=1.7, col="darkgray", pos=1, xpd=TRUE)
 ```
 
 ---
@@ -758,9 +758,7 @@ background-image: url(figs/yr_effects.png)
 background-position: 50% 55%
 background-size: 80%
 
-.orange-text[
-## Common year effects overshadow intervention
-]
+## Common year effects overshadow .orange-text[intervention]
 
 .citationT.gray-text[Scheuerell et al. (2015) *Ecol* & *Evol* &nbsp; 5:2115–2125]
 
