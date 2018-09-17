@@ -621,7 +621,13 @@ background-size: 70%
 
 ---
 
-# And now a word from our sponsor...
+class: inverse, center, middle
+
+# But first, a word from our sponsor...
+
+---
+
+# Changes in sales over time
 
 ```{r sale_ts_1, echo=FALSE, dpi=300, fig.height=4.5, fig.width=8, out.height="100%", out.width="100%", fig.align='center'}
 tstar <- 11
@@ -645,7 +651,7 @@ lines(seq(20), x2, type="o", pch=16, cex=1.2, las=1, col="dodgerblue", lwd=2)
 
 ---
 
-# And now a word from our sponsor...
+# The .orange-text[onset] of advertising
 
 ```{r sale_ts_2, echo=FALSE, dpi=300, fig.height=4.5, fig.width=8, out.height="100%", out.width="100%", fig.align='center'}
 tstar <- 11
@@ -669,7 +675,7 @@ text(tstar,par()$usr[3]-aB, "T",
 
 ---
 
-# And now a word from our sponsor...
+# How much did .orange-text[advertising] affect sales?
 
 ```{r sale_ts_3, echo=FALSE, dpi=300, fig.height=4.5, fig.width=8, out.height="100%", out.width="100%", fig.align='center'}
 tstar <- 11
