@@ -536,15 +536,11 @@ class: inverse, center, middle
 
 class: center
 
-
-# .large[ The 4 H's ]
+### .wh-text[-]
 
 .pull-left.middle[
 .green-text[
 # .large[ Hydropower ]
-]
-.wh-text[
--
 ]
 .purple-text[
 # .large[ Harvest ]
@@ -554,13 +550,12 @@ class: center
 .orange-text[
 # .large[ Habitat ]
 ]
-.wh-text[
--
-]
 .blue-text[
 # .large[ Hatcheries ]
 ]
 ]
+
+# .large[ The 4 H's ]
 
 ---
 
