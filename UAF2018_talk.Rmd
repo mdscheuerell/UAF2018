@@ -625,7 +625,27 @@ background-size: 70%
 
 ## .blue-text.under[State model]
 
-## .blue-text[Density]<sub><i>t</i></sub> = .blue-text[Density]<sub><i>t</i>-1</sub> + .orange-text[Indicator]<sub><i>t</i></sub> + .red-text[error]<sub><i>t</i></sub>
+## .blue-text[Sales]<sub><i>t</i></sub> = .blue-text[Sales]<sub><i>t</i>-1</sub> + .orange-text[Advertising × I]<sub><i>t</i></sub> + .red-text[error]<sub><i>t</i></sub>
+
+---
+
+# A model from finance
+
+## .blue-text.under[State model]
+
+## .blue-text[Sales]<sub><i>t</i></sub> = .blue-text[Sales]<sub><i>t</i>-1</sub> + .orange-text[Advertising × I]<sub><i>t</i></sub> + .red-text[error]<sub><i>t</i></sub>
+
+## .purple-text.under[Observation model]
+
+## .purple-text[Data]<sub><i>t</i></sub> = .blue-text[Sales]<sub><i>t</i></sub> + .red-text[error]<sub><i>t</i></sub>
+
+---
+
+# Our model for supplementation
+
+## .blue-text.under[State model]
+
+## .blue-text[Density]<sub><i>t</i></sub> = .blue-text[Density]<sub><i>t</i>-1</sub> + .orange-text[Supplementation × I]<sub><i>t</i></sub> + .red-text[error]<sub><i>t</i></sub>
 
 ## .purple-text.under[Observation model]
 
