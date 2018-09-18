@@ -616,6 +616,12 @@ background-size: 77%
 
 class: inverse, center, middle
 
+# We need a hierarchical model!
+
+---
+
+class: inverse, center, middle
+
 # But first, a word from our sponsor...
 
 ---
@@ -765,12 +771,6 @@ background-size: 100%
 
 ---
 
-class: inverse, center, middle
-
-# ANOTHER EXAMPLE
-
----
-
 # Emergence of high-dimension data
 
 .green-text[
@@ -893,30 +893,6 @@ background-size: 60%
 
 ---
 
-# Other applications of hierarchical models
-
-## .blue-text[Identifying metapopulation structure]
-
-### .right[Ward et al (2010) *J Appl Ecol* &nbsp; 47:47–56]
-
----
-
-# Other applications of hierarchical models
-
-## .blue-text[Reducing bias in estimates of density dependence] 
-
-### .right[Knape & de Valpine (2012) *Ecol Lett* &nbsp; 15:17–23]
-
----
-
-# Other applications of hierarchical models
-
-## .blue-text[Improving precision in species extinction forecasts] 
-
-### .right[See & Holmes (2015) *Ecol Appl* &nbsp; 25:1157–1165]
-
----
-
 # In summary
 
 .blue-text[
@@ -963,3 +939,26 @@ background-size: 100%
 # .white-text[Revealing the truth requires observations]
 ### .black-text[-]
 
+---
+
+# Other applications of hierarchical models
+
+## .blue-text[Identifying metapopulation structure]
+
+### .right[Ward et al (2010) *J Appl Ecol* &nbsp; 47:47–56]
+
+---
+
+# Other applications of hierarchical models
+
+## .blue-text[Reducing bias in estimates of density dependence] 
+
+### .right[Knape & de Valpine (2012) *Ecol Lett* &nbsp; 15:17–23]
+
+---
+
+# Other applications of hierarchical models
+
+## .blue-text[Improving precision in species extinction forecasts] 
+
+### .right[See & Holmes (2015) *Ecol Appl* &nbsp; 25:1157–1165]
