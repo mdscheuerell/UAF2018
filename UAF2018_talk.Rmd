@@ -616,6 +616,12 @@ background-size: 77%
 
 class: inverse, center, middle
 
+# We need a hierarchical model!
+
+---
+
+class: inverse, center, middle
+
 # But first, a word from our sponsor...
 
 ---
@@ -765,12 +771,6 @@ background-size: 100%
 
 ---
 
-class: inverse, center, middle
-
-# ANOTHER EXAMPLE
-
----
-
 # Emergence of high-dimension data
 
 .green-text[
@@ -791,7 +791,7 @@ class: inverse, center, middle
 
 ---
 
-# Data reduction techniques
+# Dimension reduction techniques
 
 
 ---
@@ -804,7 +804,7 @@ class: inverse, center, middle
 
 ---
 
-# Data reduction techniques
+# Dimension reduction techniques
 
 .blue-text[
 ## Can we detect common trends in the data?
@@ -842,7 +842,7 @@ background-size: 70%
 
 ---
 
-# Data reduction techniques
+# Dimension reduction techniques
 
 .blue-text[
 ## Can we detect common spatial patterns in the data?
@@ -872,7 +872,7 @@ background-size: 75%
 
 ---
 
-# Data reduction techniques
+# Dimension reduction techniques
 
 .blue-text[
 ## How do spatial patterns change over time?
@@ -890,30 +890,6 @@ background-position: 50% 40%
 background-size: 60%
 
 .citationT.gray-text[Thorson et al. (2016) *Global* *Ecol* & *Biogeogr* 6:627–637]
-
----
-
-# Other applications of hierarchical models
-
-## .blue-text[Identifying metapopulation structure]
-
-### .right[Ward et al (2010) *J Appl Ecol* &nbsp; 47:47–56]
-
----
-
-# Other applications of hierarchical models
-
-## .blue-text[Reducing bias in estimates of density dependence] 
-
-### .right[Knape & de Valpine (2012) *Ecol Lett* &nbsp; 15:17–23]
-
----
-
-# Other applications of hierarchical models
-
-## .blue-text[Improving precision in species extinction forecasts] 
-
-### .right[See & Holmes (2015) *Ecol Appl* &nbsp; 25:1157–1165]
 
 ---
 
@@ -963,3 +939,26 @@ background-size: 100%
 # .white-text[Revealing the truth requires observations]
 ### .black-text[-]
 
+---
+
+# Other applications of hierarchical models
+
+## .blue-text[Identifying metapopulation structure]
+
+### .right[Ward et al (2010) *J Appl Ecol* &nbsp; 47:47–56]
+
+---
+
+# Other applications of hierarchical models
+
+## .blue-text[Reducing bias in estimates of density dependence] 
+
+### .right[Knape & de Valpine (2012) *Ecol Lett* &nbsp; 15:17–23]
+
+---
+
+# Other applications of hierarchical models
+
+## .blue-text[Improving precision in species extinction forecasts] 
+
+### .right[See & Holmes (2015) *Ecol Appl* &nbsp; 25:1157–1165]
