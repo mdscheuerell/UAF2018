@@ -771,7 +771,9 @@ background-size: 100%
 
 ---
 
+.center[
 # Emergence of high-dimension data
+]
 
 .green-text[
 ## Remote sensing
@@ -785,9 +787,23 @@ background-size: 100%
 
 ---
 
-class: inverse, center, middle
+.center[
+# Emergence of high-dimension data
+]
 
+.green-text[
+## Remote sensing
+]
+.blue-text.center[
+## Citizen science
+]
+.orange-text.right[
+## Large-scale surveys
+]
+
+.center[
 # How can we make sense of all of this?
+]
 
 ---
 
@@ -798,20 +814,16 @@ class: inverse, center, middle
 
 # Salmon returns & productivity
 
-.blue-text[
+.blue-text.right[
 ## Trying to understand when & where stocks covary
 ]
 
 ---
 
-# Dimension reduction techniques
+# Are there common patterns over time?
 
-.blue-text[
-## Can we detect common trends in the data?
-]
-
-.right[
-### An example of Alaskan king salmon (15 popns, 25+ years)
+.blue-text.right[
+## Ex: Alaskan king salmon (15 popns, 25+ years)
 ]
 
 ---
@@ -836,20 +848,16 @@ background-size: 70%
 
 # Groundfish surveys along the West Coast
 
-.blue-text[
-## Massive effort to assess stock status & set catch limits for 100+ species
+.blue-text.right[
+## Assess status & set catch limits for 100+ species
 ]
 
 ---
 
-# Dimension reduction techniques
+# Are there common patterns over space?
 
-.blue-text[
-## Can we detect common spatial patterns in the data?
-]
-
-.right[
-### An example of California Current rockfish (20 spp, 10 years)
+.right.blue-text[
+## Ex: California Current rockfish (20 spp, 10 years)
 ]
 
 ---
@@ -872,14 +880,10 @@ background-size: 75%
 
 ---
 
-# Dimension reduction techniques
+# How do spatial patterns change over time?
 
-.blue-text[
-## How do spatial patterns change over time?
-]
-
-.right[
-### An example of Bering Sea groundfishes (10 spp, 30+ years)
+.right.blue-text[
+## An example of Bering Sea groundfishes (10 spp, 30+ years)
 ]
 
 ---
