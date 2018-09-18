@@ -520,16 +520,10 @@ background-size: cover
 
 ---
 
-class: inverse, center, middle
-
-# SOME EXAMPLES
-
----
-
 # Conservation of Pacific salmon
 
 .blue-text[
-## 50% of salmon populations in the continental US are listed under the Endangered Species Act
+## More than one-half of the stocks in the lower 48 are listed under the Endangered Species Act
 ]
 
 ---
@@ -559,37 +553,39 @@ class: center
 
 ---
 
+class: inverse, center, middle
+
+# .large[ RECOVERY OPTIONS? ]
+
+---
+
 class: frimg
 background-image: url(figs/suppl_scheme.png)
-background-position: 50% 85%
-background-size: 80%
+background-position: 50% 60%
+background-size: 90%
 
-# Recovery options for Pacific salmon
-
-.blue-text[
-## One strategy is hatchery supplementation
-]
+# One strategy is .blue-text[hatchery supplementation]
 
 ---
 
 # Evaluating conservation interventions
 
 .blue-text[
-## Has 30+ years of hatchery supplementation boosted the production of wild salmon in the Snake R?
+## Has 30+ years of hatchery supplementation boosted the production of wild Chinook in the Snake R?
 ]
 
 ---
 
 class: frimg
 background-image: url(figs/suppl_esu.png)
-background-size: 90%
+background-size: 95%
 
 ---
 
 class: frimg
 background-image: url(figs/density_ts.png)
-background-position: 50% 25%
-background-size: 70%
+background-position: 50% 30%
+background-size: 77%
 
 # Density of spawners over time
 
@@ -597,8 +593,8 @@ background-size: 70%
 
 class: frimg
 background-image: url(figs/suppl_ts.png)
-background-position: 50% 25%
-background-size: 70%
+background-position: 50% 30%
+background-size: 77%
 
 # Ad hoc design
 
@@ -612,6 +608,8 @@ background-size: 70%
 ## Different start/stop & duration
 
 ## Changing variance & correlated errors
+
+## Multiple states & tribes
 ]
 
 ---
@@ -625,47 +623,46 @@ class: inverse, center, middle
 # Changes in sales over time
 
 ```{r sale_ts_1, echo=FALSE, dpi=300, fig.height=4.5, fig.width=8, out.height="100%", out.width="100%", fig.align='center'}
-tstar <- 11
+tstar <- 9
+tt <- 20
 
 par(mai=c(0.9,0.9,0.1,0.1), omi=c(0,0,0,0))
 
 set.seed(666)
 
-x1 <- cumsum(rnorm(20)) + 5
+x1 <- cumsum(rnorm(tt)) + 5
 
-dd <- c(rep(0,11), rep(1.5,9))
+dd <- c(rep(0,tstar), rep(1.5,20-tstar))
 x2 <- x1 + dd
 
-plot(seq(20), x1, type="n", pch=16, las=1, 
+plot(seq(tt), x1, type="n", pch=16, las=1, 
         xlab="", ylab="", cex.axis=1.5)
 mtext(side=1, "Time", line=3.5, cex=1.8)
 mtext(side=2, "Sales index", line=3, cex=1.8)
 
-lines(seq(20), x2, type="o", pch=16, cex=1.2, las=1, col="dodgerblue", lwd=2)
+lines(seq(tt), x2, type="o", pch=16, cex=1.2, las=1, col="dodgerblue", lwd=2)
 ```
 
 ---
 
-# The .orange-text[onset] of advertising
+# The company began advertising at .orange-text[Time = 9]
 
 ```{r sale_ts_2, echo=FALSE, dpi=300, fig.height=4.5, fig.width=8, out.height="100%", out.width="100%", fig.align='center'}
-tstar <- 11
-
 par(mai=c(0.9,0.9,0.1,0.1), omi=c(0,0,0,0))
 
-plot(seq(20), x1, type="n", pch=16, las=1, 
+plot(seq(tt), x1, type="n", pch=16, las=1, 
         xlab="", ylab="", cex.axis=1.5)
 mtext(side=1, "Time", line=3.5, cex=1.8)
 mtext(side=2, "Sales index", line=3, cex=1.8)
 
-lines(seq(20), x2, type="o", pch=16, cex=1.2, las=1, col="dodgerblue", lwd=2)
+lines(seq(tt), x2, type="o", pch=16, cex=1.2, las=1, col="dodgerblue", lwd=2)
 
 scl <- 0.07
 aB <- (par()$usr[4] - par()$usr[3])*scl
 arrows(x0=tstar,y0=par()$usr[3]-aB,y1=par()$usr[3]*0.99,
        length=0.1, col="darkorange", xpd=TRUE, lwd=2)
 text(tstar,par()$usr[3]-aB, "T",
-	 cex=1.7, col="darkorange", pos=1, xpd=TRUE)
+	 cex=2, col="darkorange", pos=1, xpd=TRUE)
 ```
 
 ---
@@ -673,30 +670,28 @@ text(tstar,par()$usr[3]-aB, "T",
 # How much did .orange-text[advertising] increase sales?
 
 ```{r sale_ts_3, echo=FALSE, dpi=300, fig.height=4.5, fig.width=8, out.height="100%", out.width="100%", fig.align='center'}
-tstar <- 11
-
 par(mai=c(0.9,0.9,0.1,0.1), omi=c(0,0,0,0))
 
-plot(seq(20), x1, type="n", pch=16, las=1, 
+plot(seq(tt), x1, type="n", pch=16, las=1, 
         xlab="", ylab="", cex.axis=1.5)
 mtext(side=1, "Time", line=3.5, cex=1.8)
 mtext(side=2, "Sales index", line=3, cex=1.8)
 
-arrows(tstar+1, x1[tstar+1], tstar+1, x2[tstar+1]*0.985,
-       length=0.1, col="darkorange", lty="solid", lwd=2)
+lines(seq(tt), x1, type="o", pch=16, cex=1.2, las=1, col="darkgray", lwd=2)
 
-text(tstar+1.5, (x1[tstar+1]+x2[tstar+1])/1.8, "A",
-	 cex=1.7, col="darkorange", adj=c(0.5,0.5))
+lines(seq(tt), x2, type="o", pch=16, cex=1.2, las=1, col="dodgerblue", lwd=2)
 
-lines(seq(20), x1, type="o", pch=16, cex=1.2, las=1, col="darkgray", lwd=2)
-lines(seq(20), x2, type="o", pch=16, cex=1.2, las=1, col="dodgerblue", lwd=2)
+arrows(tstar+1, x1[tstar+1]*1.02, tstar+1, x2[tstar+1]*0.982,
+       length=0.1, col="darkorange", lty="solid", lwd=3)
+text(tstar+1.75, (x1[tstar+1]+x2[tstar+1])/2, "A",
+	 cex=2, col="darkorange", adj=c(0.5,0.5))
 
 scl <- 0.07
 aB <- (par()$usr[4] - par()$usr[3])*scl
 arrows(x0=tstar,y0=par()$usr[3]-aB,y1=par()$usr[3]*0.99,
        length=0.1, col="darkgray", xpd=TRUE, lwd=2)
 text(tstar,par()$usr[3]-aB, "T",
-	 cex=1.7, col="darkgray", pos=1, xpd=TRUE)
+	 cex=2, col="darkgray", pos=1, xpd=TRUE)
 ```
 
 ---
