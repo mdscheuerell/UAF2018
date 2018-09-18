@@ -804,7 +804,7 @@ class: inverse, center, middle
 # Salmon returns & productivity
 
 .blue-text[
-## Trying to understand when & why stocks covary
+## Trying to understand when & where stocks covary
 ]
 
 ---
@@ -824,7 +824,7 @@ class: inverse, center, middle
 class: frimg
 background-image: url(figs/dfa_1.png)
 background-position: 50% 40%
-background-size: 70%
+background-size: 75%
 
 ---
 
