@@ -827,6 +827,38 @@ background-size: 100%
 
 ---
 
+class: center
+
+# Ordination
+
+```{r pca_ex, warning=FALSE, message=FALSE, echo=FALSE, dpi=300, fig.height=5, fig.width=10, fig.align='center', out.height="100%", out.width="100%"}
+par(mfrow=c(1,2), mai=c(0.7,0.7,0.1,0.1), omi=rep(0,4), lwd=2, fg="black")
+
+## PCA
+biplot(prcomp(rock[,c(1,2,4)]), col=c("black", "darkorange"),
+       yaxt="n", xaxt="n", ylab="", xlab="")
+mtext(side=1, "PC1", cex=1.5, line=1)
+mtext(side=2, "PC2", cex=1.5, line=1)
+
+# par(mfrow=c(1,2), mai=c(0.7,0.7,0,0), omi=rep(0,4), lwd=2)
+
+## NMDS
+comm_mat <- matrix(
+   sample(1:100,300,replace=T),nrow=6,
+   dimnames=list(paste("community",1:6,sep="_"),paste0("sp",1:50)))
+
+nmds <- vegan::metaMDS(comm_mat, k=3, trymax=100, trace=0)
+
+vegan::ordiplot(nmds, type="n",
+                yaxt="n", xaxt="n", ylab="", xlab="")
+vegan::orditorp(nmds, display="species", col="dodgerblue", air=0.01)                     
+vegan::orditorp(nmds, display="sites", cex=1.25, col="darkorange", air=0.01)                     
+mtext(side=1, "NMDS1", cex=1.5, line=1)
+mtext(side=2, "NMDS2", cex=1.5, line=1)
+```
+
+---
+
 ```{r plot_many_ts, echo=FALSE, dpi=300, fig.height=5.5, fig.width=7, fig.align='center'}
 NN <- 25
 TT <- 30
