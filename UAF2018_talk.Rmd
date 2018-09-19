@@ -536,12 +536,12 @@ class: center
 .green-text[
 # .large[ Hydropower ]
 ]
-.purple-text[
+.orange-text[
 # .large[ Harvest ]
 ]
 ]
 .pull-right[
-.orange-text[
+.purple-text[
 # .large[ Habitat ]
 ]
 .blue-text[
@@ -807,11 +807,16 @@ background-size: 100%
 
 ---
 
-# Dimension reduction
+class: frimg, inverse, right, bottom
+background-image: url(figs/shake.jpg)
+background-position: 50% 50%
+background-size: 100%
 
-.blue-text.right[
-## A way to map many variables onto a few
-]
+# Tragedy
+
+# Comedy
+
+# History
 
 ---
 
@@ -857,7 +862,7 @@ for(i in 1:NN) {
 
 class: center
 
-# A combination of these
+# Some combination of these
 
 ```{r plot_dfa_trends, echo=FALSE, fig.align="center", dpi=300, fig.height=3, fig.width=8}
 ## plot the trends
@@ -988,6 +993,7 @@ DNA: *fizzgig (2016)*
 Janet Leigh: *Paramount Studios*  
 Snake oil: *The Register*  
 DWH: *US Coast Guard*
+Shakespeare's plays: *Sir John Gilbert (1849)*
 ]
 
 .futnote[`r icon::fa("envelope")` mark.scheuerell@noaa.gov]
