@@ -810,12 +810,12 @@ background-size: 100%
 # Dimension reduction
 
 .blue-text.right[
-## A way to map many variables onto few proxies
+## A way to map many variables onto a few
 ]
 
 ---
 
-```{r plot_many_ts, echo=FALSE, dpi=300, fig.height=6, fig.width=6, fig.align='center', out.height="80%", out.width="80%"}
+```{r plot_many_ts, echo=FALSE, dpi=300, fig.height=5.5, fig.width=7, fig.align='center'}
 NN <- 25
 TT <- 30
 MM <- 3
@@ -855,13 +855,16 @@ for(i in 1:NN) {
 
 ---
 
-```{r plot_dfa_trends, echo=FALSE, fig.align="center", dpi=300, out.height="80%", out.width="80%"}
+class: center
+
+# A combination of these
+
+```{r plot_dfa_trends, echo=FALSE, fig.align="center", dpi=300, fig.height=3, fig.width=8}
 ## plot the trends
-par(mfrow=c(3,3), mai=c(0.1,0.1,0,0), omi=c(1,1,1,1))
+par(mfrow=c(1,3), mai=c(0.2,0,0,0), omi=rep(0.1,4))
 clr <- viridis::plasma(MM, end=0.8)
 for(i in 1:3) {
-  par(mfg=c(i,i))
-	plot.ts(xx[i,], lwd=2,
+	plot.ts(xx[i,], lwd=3,
 	        xlab="", xaxt="n", ylab="", yaxt="n",
 	        col=clr[i], bty="n")
 }
