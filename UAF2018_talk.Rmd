@@ -72,6 +72,7 @@ background-size: cover
 
 1. Introduction
 .small[
+* My story  
 * Emergence of cool stuff
 * The future of cool stuff
 * Can we get through all of this?
@@ -609,14 +610,14 @@ background-size: 77%
 
 ## Changing variance & correlated errors
 
-## Multiple states & tribes
+## Multiple agencies & tribes
 ]
 
 ---
 
 class: inverse, center, middle
 
-# We need a hierarchical model!
+# We need a state-space model!
 
 ---
 
@@ -706,7 +707,7 @@ text(tstar,par()$usr[3]-aB, "T",
 
 ## .blue-text.under[State model]
 
-## .blue-text[Sales]<sub><i>t</i></sub> = .blue-text[Sales]<sub><i>t</i>-1</sub> + .orange-text[Advertising × I]<sub><i>t</i></sub> + .red-text[error]<sub><i>t</i></sub>
+## .blue-text[Sales]<sub><i>t</i></sub> = .blue-text[Sales]<sub><i>t</i>-1</sub> + .orange-text[Advertising × I]<sub><i>t</i></sub> + .gray-text[error]<sub><i>t</i></sub>
 
 ---
 
@@ -714,7 +715,7 @@ text(tstar,par()$usr[3]-aB, "T",
 
 ## .blue-text.under[State model]
 
-## .blue-text[Sales]<sub><i>t</i></sub> = .blue-text[Sales]<sub><i>t</i>-1</sub> + .orange-text[Advertising × I]<sub><i>t</i></sub> + .red-text[error]<sub><i>t</i></sub>
+## .blue-text[Sales]<sub><i>t</i></sub> = .blue-text[Sales]<sub><i>t</i>-1</sub> + .orange-text[Advertising × I]<sub><i>t</i></sub> + .gray-text[error]<sub><i>t</i></sub>
 
 ## .purple-text.under[Observation model]
 
@@ -726,7 +727,7 @@ text(tstar,par()$usr[3]-aB, "T",
 
 ## .blue-text.under[State model]
 
-## .blue-text[Density]<sub><i>t</i></sub> = .blue-text[Density]<sub><i>t</i>-1</sub> + .orange-text[Supplementation × I]<sub><i>t</i></sub> + .red-text[error]<sub><i>t</i></sub>
+## .blue-text[Density]<sub><i>t</i></sub> = .blue-text[Density]<sub><i>t</i>-1</sub> + .orange-text[Supplementation × I]<sub><i>t</i></sub> + .gray-text[error]<sub><i>t</i></sub>
 
 ## .purple-text.under[Observation model]
 
@@ -737,12 +738,12 @@ text(tstar,par()$usr[3]-aB, "T",
 class: frimg
 background-image: url(figs/suppl_eff.png)
 background-position: 50% 37%
-background-size: 120%
+background-size: 130%
 
 # Supplementation effect is rather subtle
 
 .blue-text.center[
-### Probability of positive effect is ~0.7
+### Probability of positive effect is ~70%
 ]
 
 .citationT.gray-text[Scheuerell et al. (2015) *Ecol* & *Evol* &nbsp; 5:2115–2125]
@@ -752,7 +753,7 @@ background-size: 120%
 class: frimg
 background-image: url(figs/yr_effects.png)
 background-position: 50% 55%
-background-size: 80%
+background-size: 85%
 
 ## Common year effects overshadow .orange-text[intervention]
 
@@ -807,16 +808,22 @@ background-size: 100%
 
 ---
 
-class: frimg, inverse, right, bottom
+class: frimg, inverse, right
 background-image: url(figs/shake.jpg)
 background-position: 50% 50%
 background-size: 100%
 
-# Tragedy
+# Classification
 
-# Comedy
+<br><br>
 
-# History
+## .right[ History ]
+
+## .left[ Tragedy ]
+
+<br><br>
+
+## .center[ Comedy ]  
 
 ---
 
@@ -992,7 +999,7 @@ LIDAR: *NOAA*
 DNA: *fizzgig (2016)*  
 Janet Leigh: *Paramount Studios*  
 Snake oil: *The Register*  
-DWH: *US Coast Guard*
+DWH: *US Coast Guard*  
 Shakespeare's plays: *Sir John Gilbert (1849)*
 ]
 
