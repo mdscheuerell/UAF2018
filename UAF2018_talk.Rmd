@@ -576,6 +576,8 @@ class: center
 # Ordination
 
 ```{r pca_ex, warning=FALSE, message=FALSE, echo=FALSE, dpi=300, fig.height=5, fig.width=10, fig.align='center', out.height="100%", out.width="100%"}
+set.seed(123)
+
 par(mfrow=c(1,2), mai=c(0.7,0.7,0.3,0.3), omi=rep(0,4), lwd=2, fg="black")
 
 ## PCA
@@ -1039,7 +1041,26 @@ background-size: 100%
 
 # Similar application to Deepwater Horizon
 
-.citationT.white-text[Scheuerell et al. _in prep_]
+---
+
+# How did abundance change post-spill?
+
+.blue-text.right[
+## Quarterly survey data from 1982-present
+]
+
+---
+
+class: frimg, middle
+background-image: url(figs/dwh_effect.png)
+background-position: 80% 50%
+background-size: 55%
+
+## .red-text[ Oil spill (-) ]
+
+## .blue-text[ No Fishing (+) ]
+
+.footnoteSm.gray-text[Scheuerell et al. _in prep_]
 
 ---
 
@@ -1053,9 +1074,9 @@ background-size: 100%
 ## Software & hardware improvements open new doors
 ]
 
-.futnote.blue-text[`r icon::fa("envelope")` mark.scheuerell@noaa.gov]
+.futnote[`r icon::fa("envelope")` mark.scheuerell@noaa.gov]
 
-.citation.blue-text[`r icon::fa("twitter")` @mark_scheuerell]
+.citation[`r icon::fa("twitter")` @mark_scheuerell]
 
 ---
 
