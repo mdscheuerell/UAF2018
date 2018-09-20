@@ -28,23 +28,21 @@ _School of Aquatic and Fishery Sciences&lt;br&gt;University of Washington&lt;br&
 
 # Acknowledgments
 
-.large.blue-text[
-### Elizabeth Holmes, Jim Thorson, Eric Ward (NMFS)
+### .blue-text[ Elizabeth Holmes, Jim Thorson, Eric Ward ] (NMFS)
 
-### Eric Buhle, Kevin See (Quantitative Consultants, Inc)
+### .blue-text[ Eric Buhle, Kevin See ] (Quantitative Consultants, Inc)
 
-### Stephanie Hampton, Steve Katz (Washington St Univ)
+### .blue-text[ Stephanie Hampton, Steve Katz ] (Washington St Univ)
 
-### Daniel Schindler, Ray Hilborn (Univ Washington)
+### .blue-text[ Daniel Schindler, Ray Hilborn ] (Univ Washington)
 
-### Brice Semmens (Scripps)
-]
+### .blue-text[ Brice Semmens ] (Scripps)
 
 ---
 
 # Acknowledgments
 
-.large.blue-text[
+.blue-text[
 ## Post-docs
 
 ## Grad students
@@ -69,34 +67,31 @@ background-size: cover
 # A brief outline
 
 1. Introduction
-.small[
+.small.blue-text[
+* My story  
 * Emergence of cool stuff
-* The future of cool stuff
 * Can we get through all of this?
 ]
 2. Methods
-.small[
-* Old school stats
+.small.blue-text[
 * New school stats
 * Software improvements
 * Hardware is not soft
 ]
 3. Results
-.small[
-* Some plots
-* Unrelated tangent
+.small.blue-text[
 * Really hard-to-read table
+* Unrelated tangent
 * Horrendogram
 ]
 4. Discussion
-.small[
+.small.blue-text[
 * Where is this headed?
 * So much inference
-* Did we get through all of this?
 * When is he done?
 ]
 5. Supplement
-.small[
+.small.blue-text[
 * There's more?!
 * Who does this in a talk?
 ]
@@ -248,26 +243,27 @@ class: center, middle, inverse
 
 # States of nature might be
 
-.blue-text[
+.green-text[
 ## Animal location
+]
+.blue-text[
 ## Species density
+]
+.orange-text[
 ## Age structure
+]
+.purple-text[
 ## Reproductive status
 ]
 
 ---
 
-class: center, middle, inverse
-
-# Revealing the true state of nature
-# requires some observations
-
----
-
-class: frimg, center, bottom, inverse-black
+class: frimg, center, bottom, black-back
 background-image: url(figs/venice_carnival.jpg)
-background-position: 50% 50%
 background-size: 100%
+
+## .white-text[Revealing the true state requires observations]
+### .black-text[-]
 
 ---
 
@@ -372,7 +368,7 @@ class: inverse, center, middle
 
 # Many software options
 
-## .blue-text[Canned **R** packages] (dlm, vars, MARSS&lt;sup&gt;*&lt;/sup&gt;)
+## .green-text[Canned **R** packages] (dlm, vars, MARSS&lt;sup&gt;*&lt;/sup&gt;)
 
 ## .blue-text[Code-your-own] (JAGS, Stan, greta)
 
@@ -385,6 +381,184 @@ class: inverse, center, middle
 class: frimg, inverse-black
 background-image: url(figs/snake_oil.jpg)
 background-size: cover
+
+---
+
+.center[
+# Emergence of high-dimension data
+]
+
+.green-text[
+## Remote sensing
+]
+.blue-text.center[
+## Citizen science
+]
+.orange-text.right[
+## Large-scale surveys
+]
+
+---
+
+.center[
+# Emergence of high-dimension data
+]
+
+.green-text[
+## Remote sensing
+]
+.blue-text.center[
+## Citizen science
+]
+.orange-text.right[
+## Large-scale surveys
+]
+
+.center[
+# How can we make sense of all of this?
+]
+
+---
+
+class: frimg, inverse, right
+background-image: url(figs/shake.jpg)
+background-position: 50% 50%
+background-size: 100%
+
+# Classification
+
+&lt;br&gt;&lt;br&gt;
+
+## .right[ History ]
+
+## .left[ Tragedy ]
+
+&lt;br&gt;&lt;br&gt;
+
+## .center[ Comedy ]  
+
+---
+
+class: center
+
+# Ordination
+
+&lt;img src="UAF2018_talk_files/figure-html/pca_ex-1.png" width="100%" height="100%" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: center, middle, inverse
+
+# Dynamic Factor Analysis
+
+---
+
+&lt;img src="UAF2018_talk_files/figure-html/plot_many_ts-1.png" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: center
+
+# Just some combination of these
+
+&lt;img src="UAF2018_talk_files/figure-html/plot_dfa_trends-1.png" style="display: block; margin: auto;" /&gt;
+
+---
+
+# Salmon returns &amp; productivity
+
+.blue-text.right[
+## Trying to understand when &amp; where stocks covary
+]
+
+---
+
+class: black-back 
+background-image: url(figs/aykssi.png)
+background-position: 50% 50%
+background-size: 63%
+
+---
+
+# Are there common patterns over time?
+
+.blue-text.right[
+## Ex: Alaskan king salmon (15 popns, 25+ years)
+]
+
+---
+
+class: frimg
+background-image: url(figs/dfa_1.png)
+background-position: 50% 40%
+background-size: 75%
+
+---
+
+class: frimg
+background-image: url(figs/dfa_2.png)
+background-position: 50% 70%
+background-size: 80%
+
+# Two declining trends
+
+.citationT.gray-text[Ohlberger et al. (2016) *Ecosphere* 7:e01333]
+
+---
+
+class: black-back
+background-image: url(figs/wcgfs.jpg)
+background-position: 50% 50%
+background-size: 97%
+
+---
+
+# Are there common patterns over space?
+
+.right.blue-text[
+## Ex: California Current rockfish (20 spp, 10 years)
+]
+
+---
+
+class: center, middle, inverse
+
+# Spatial Factor Analysis
+
+---
+
+class: frimg
+background-image: url(figs/sfa_1.png)
+background-position: 50% 30%
+background-size: 65%
+
+.citationT.gray-text[Thorson et al. (2015) *Meth* *Ecol* &amp; *Evol* 6:627–637]
+
+---
+
+class: frimg
+background-image: url(figs/sfa_2.png)
+background-position: 50% 30%
+background-size: 75%
+
+.citationT.gray-text[Thorson et al. (2015) *Meth* *Ecol* &amp; *Evol* 6:627–637]
+
+---
+
+# How do spatial patterns change over time?
+
+.right.blue-text[
+## Ex: Bering Sea groundfishes (10 spp, 30+ years)
+]
+
+---
+
+class: frimg
+background-image: url(figs/sdfa.png)
+background-position: 50% 40%
+background-size: 60%
+
+.citationT.gray-text[Thorson et al. (2016) *Global* *Ecol* &amp; *Biogeogr* 6:627–637]
 
 ---
 
@@ -404,12 +578,12 @@ class: center
 .green-text[
 # .large[ Hydropower ]
 ]
-.purple-text[
+.orange-text[
 # .large[ Harvest ]
 ]
 ]
 .pull-right[
-.orange-text[
+.purple-text[
 # .large[ Habitat ]
 ]
 .blue-text[
@@ -423,7 +597,7 @@ class: center
 
 class: inverse, center, middle
 
-# .large[ RECOVERY OPTIONS? ]
+# RECOVERY OPTIONS?
 
 ---
 
@@ -470,21 +644,24 @@ background-size: 77%
 
 # Complications for analysis
 
-.blue-text[
+.green-text[
 ## No randomized design
-
+]
+.blue-text[
 ## Different start/stop &amp; duration
-
+]
+.orange-text[
 ## Changing variance &amp; correlated errors
-
-## Multiple states &amp; tribes
+]
+.purple-text[
+## Multiple agencies &amp; tribes
 ]
 
 ---
 
 class: inverse, center, middle
 
-# We need a hierarchical model!
+# We need a state-space model!
 
 ---
 
@@ -494,7 +671,18 @@ class: inverse, center, middle
 
 ---
 
-# Changes in sales over time
+class: frimg, right, middle
+background-image: url(figs/prodbox.jpg)
+background-position: 5% 50%
+background-size: 60%
+
+# This Product™
+
+### Now with a new gray box!
+
+---
+
+# Sales of .blue-text[This Product] over time
 
 &lt;img src="UAF2018_talk_files/figure-html/sale_ts_1-1.png" width="100%" height="100%" style="display: block; margin: auto;" /&gt;
 
@@ -516,7 +704,7 @@ class: inverse, center, middle
 
 ## .blue-text.under[State model]
 
-## .blue-text[Sales]&lt;sub&gt;&lt;i&gt;t&lt;/i&gt;&lt;/sub&gt; = .blue-text[Sales]&lt;sub&gt;&lt;i&gt;t&lt;/i&gt;-1&lt;/sub&gt; + .orange-text[Advertising × I]&lt;sub&gt;&lt;i&gt;t&lt;/i&gt;&lt;/sub&gt; + .red-text[error]&lt;sub&gt;&lt;i&gt;t&lt;/i&gt;&lt;/sub&gt;
+## .blue-text[Sales]&lt;sub&gt;&lt;i&gt;t&lt;/i&gt;&lt;/sub&gt; = .blue-text[Sales]&lt;sub&gt;&lt;i&gt;t&lt;/i&gt;-1&lt;/sub&gt; + .orange-text[Advertising × I]&lt;sub&gt;&lt;i&gt;t&lt;/i&gt;&lt;/sub&gt; + .gray-text[error]&lt;sub&gt;&lt;i&gt;t&lt;/i&gt;&lt;/sub&gt;
 
 ---
 
@@ -524,7 +712,7 @@ class: inverse, center, middle
 
 ## .blue-text.under[State model]
 
-## .blue-text[Sales]&lt;sub&gt;&lt;i&gt;t&lt;/i&gt;&lt;/sub&gt; = .blue-text[Sales]&lt;sub&gt;&lt;i&gt;t&lt;/i&gt;-1&lt;/sub&gt; + .orange-text[Advertising × I]&lt;sub&gt;&lt;i&gt;t&lt;/i&gt;&lt;/sub&gt; + .red-text[error]&lt;sub&gt;&lt;i&gt;t&lt;/i&gt;&lt;/sub&gt;
+## .blue-text[Sales]&lt;sub&gt;&lt;i&gt;t&lt;/i&gt;&lt;/sub&gt; = .blue-text[Sales]&lt;sub&gt;&lt;i&gt;t&lt;/i&gt;-1&lt;/sub&gt; + .orange-text[Advertising × I]&lt;sub&gt;&lt;i&gt;t&lt;/i&gt;&lt;/sub&gt; + .gray-text[error]&lt;sub&gt;&lt;i&gt;t&lt;/i&gt;&lt;/sub&gt;
 
 ## .purple-text.under[Observation model]
 
@@ -536,7 +724,7 @@ class: inverse, center, middle
 
 ## .blue-text.under[State model]
 
-## .blue-text[Density]&lt;sub&gt;&lt;i&gt;t&lt;/i&gt;&lt;/sub&gt; = .blue-text[Density]&lt;sub&gt;&lt;i&gt;t&lt;/i&gt;-1&lt;/sub&gt; + .orange-text[Supplementation × I]&lt;sub&gt;&lt;i&gt;t&lt;/i&gt;&lt;/sub&gt; + .red-text[error]&lt;sub&gt;&lt;i&gt;t&lt;/i&gt;&lt;/sub&gt;
+## .blue-text[Density]&lt;sub&gt;&lt;i&gt;t&lt;/i&gt;&lt;/sub&gt; = .blue-text[Density]&lt;sub&gt;&lt;i&gt;t&lt;/i&gt;-1&lt;/sub&gt; + .orange-text[Supplementation × I]&lt;sub&gt;&lt;i&gt;t&lt;/i&gt;&lt;/sub&gt; + .gray-text[error]&lt;sub&gt;&lt;i&gt;t&lt;/i&gt;&lt;/sub&gt;
 
 ## .purple-text.under[Observation model]
 
@@ -547,12 +735,27 @@ class: inverse, center, middle
 class: frimg
 background-image: url(figs/suppl_eff.png)
 background-position: 50% 37%
-background-size: 120%
+background-size: 130%
 
 # Supplementation effect is rather subtle
 
 .blue-text.center[
-### Probability of positive effect is ~0.7
+### Mean increase of only 3.3% over ~25 years
+]
+
+.citationT.gray-text[Scheuerell et al. (2015) *Ecol* &amp; *Evol* &amp;nbsp; 5:2115–2125]
+
+---
+
+class: frimg
+background-image: url(figs/suppl_eff.png)
+background-position: 50% 37%
+background-size: 130%
+
+# Supplementation effect is rather subtle
+
+.blue-text.center[
+### Probability of positive effect is ~70%
 ]
 
 .citationT.gray-text[Scheuerell et al. (2015) *Ecol* &amp; *Evol* &amp;nbsp; 5:2115–2125]
@@ -562,7 +765,7 @@ background-size: 120%
 class: frimg
 background-image: url(figs/yr_effects.png)
 background-position: 50% 55%
-background-size: 80%
+background-size: 85%
 
 ## Common year effects overshadow .orange-text[intervention]
 
@@ -577,144 +780,26 @@ background-size: 100%
 
 # Similar application to Deepwater Horizon
 
-.citationT.white-text[Scheuerell et al. _in prep_]
-
 ---
 
-.center[
-# Emergence of high-dimension data
-]
-
-.green-text[
-## Remote sensing
-]
-.blue-text.center[
-## Citizen science
-]
-.orange-text.right[
-## Large-scale surveys
-]
-
----
-
-.center[
-# Emergence of high-dimension data
-]
-
-.green-text[
-## Remote sensing
-]
-.blue-text.center[
-## Citizen science
-]
-.orange-text.right[
-## Large-scale surveys
-]
-
-.center[
-# How can we make sense of all of this?
-]
-
----
-
-# Dimension reduction
+# How did abundance change post-spill?
 
 .blue-text.right[
-## A way to map many variables onto few proxies
+## Quarterly survey data from 1982-present
 ]
 
 ---
 
-&lt;img src="UAF2018_talk_files/figure-html/plot_many_ts-1.png" width="80%" height="80%" style="display: block; margin: auto;" /&gt;
+class: frimg, middle
+background-image: url(figs/dwh_effect.png)
+background-position: 80% 50%
+background-size: 55%
 
----
+## .red-text[ Oil spill (-) ]
 
-&lt;img src="UAF2018_talk_files/figure-html/plot_dfa_trends-1.png" width="100%" height="100%" style="display: block; margin: auto;" /&gt;
+## .blue-text[ No Fishing (+) ]
 
----
-
-# Salmon returns &amp; productivity
-
-.blue-text.right[
-## Trying to understand when &amp; where stocks covary
-]
-
----
-
-# Are there common patterns over time?
-
-.blue-text.right[
-## Ex: Alaskan king salmon (15 popns, 25+ years)
-]
-
----
-
-class: frimg
-background-image: url(figs/dfa_1.png)
-background-position: 50% 40%
-background-size: 75%
-
----
-
-class: frimg
-background-image: url(figs/dfa_2.png)
-background-position: 50% 70%
-background-size: 80%
-
-# Two declining trends
-
-.citationT.gray-text[Ohlberger et al. (2016) *Ecosphere* 7:e01333]
-
----
-
-# Groundfish surveys along the West Coast
-
-.blue-text.right[
-## Assess status &amp; set catch limits for 100+ species
-]
-
----
-
-# Are there common patterns over space?
-
-.right.blue-text[
-## Ex: California Current rockfish (20 spp, 10 years)
-]
-
----
-
-class: frimg
-background-image: url(figs/sfa_1.png)
-background-position: 50% 30%
-background-size: 65%
-
-.citationT.gray-text[Thorson et al. (2015) *Meth* *Ecol* &amp; *Evol* 6:627–637]
-
----
-
-class: frimg
-background-image: url(figs/sfa_2.png)
-background-position: 50% 30%
-background-size: 75%
-
-.citationT.gray-text[Thorson et al. (2015) *Meth* *Ecol* &amp; *Evol* 6:627–637]
-
----
-
-# How do spatial patterns change over time?
-
-.right.blue-text[
-## Ex: Bering Sea groundfishes (10 spp, 30+ years)
-]
-
----
-
-class: frimg
-background-image: url(figs/sdfa.png)
-background-position: 50% 40%
-background-size: 60%
-
-.citationT.gray-text[Thorson et al. (2016) *Global* *Ecol* &amp; *Biogeogr* 6:627–637]
+.footnoteSm.gray-text[Scheuerell et al. _in prep_]
 
 ---
 
@@ -728,9 +813,9 @@ background-size: 60%
 ## Software &amp; hardware improvements open new doors
 ]
 
-.futnote.blue-text[<i class="fa  fa-envelope "></i> mark.scheuerell@noaa.gov]
+.futnote[<i class="fa  fa-envelope "></i> mark.scheuerell@noaa.gov]
 
-.citation.blue-text[<i class="fa  fa-twitter "></i> @mark_scheuerell]
+.citation[<i class="fa  fa-twitter "></i> @mark_scheuerell]
 
 ---
 
@@ -748,7 +833,8 @@ LIDAR: *NOAA*
 DNA: *fizzgig (2016)*  
 Janet Leigh: *Paramount Studios*  
 Snake oil: *The Register*  
-DWH: *US Coast Guard*
+DWH: *US Coast Guard*  
+Shakespeare's plays: *Sir John Gilbert (1849)*
 ]
 
 .futnote[<i class="fa  fa-envelope "></i> mark.scheuerell@noaa.gov]
@@ -757,12 +843,17 @@ DWH: *US Coast Guard*
 
 ---
 
-class: frimg, center, bottom, black-back
-background-image: url(figs/venice_carnival.jpg)
-background-size: 100%
+class: center, middle, inverse
 
-# .white-text[Revealing the truth requires observations]
-### .black-text[-]
+# Revealing the true state of nature
+# requires some observations
+
+---
+
+class: frimg, center, bottom, inverse-black
+background-image: url(figs/venice_carnival.jpg)
+background-position: 50% 50%
+background-size: 100%
 
 ---
 
