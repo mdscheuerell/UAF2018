@@ -30,23 +30,21 @@ _School of Aquatic and Fishery Sciences<br>University of Washington<br>_
 
 # Acknowledgments
 
-.large.blue-text[
-### Elizabeth Holmes, Jim Thorson, Eric Ward (NMFS)
+### .blue-text[ Elizabeth Holmes, Jim Thorson, Eric Ward ] (NMFS)
 
-### Eric Buhle, Kevin See (Quantitative Consultants, Inc)
+### .blue-text[ Eric Buhle, Kevin See ] (Quantitative Consultants, Inc)
 
-### Stephanie Hampton, Steve Katz (Washington St Univ)
+### .blue-text[ Stephanie Hampton, Steve Katz ] (Washington St Univ)
 
-### Daniel Schindler, Ray Hilborn (Univ Washington)
+### .blue-text[ Daniel Schindler, Ray Hilborn ] (Univ Washington)
 
-### Brice Semmens (Scripps)
-]
+### .blue-text[ Brice Semmens ] (Scripps)
 
 ---
 
 # Acknowledgments
 
-.large.blue-text[
+.blue-text[
 ## Post-docs
 
 ## Grad students
