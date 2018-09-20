@@ -69,35 +69,31 @@ background-size: cover
 # A brief outline
 
 1. Introduction
-.small[
+.small.blue-text[
 * My story  
 * Emergence of cool stuff
-* The future of cool stuff
 * Can we get through all of this?
 ]
 2. Methods
-.small[
-* Old school stats
+.small.blue-text[
 * New school stats
 * Software improvements
 * Hardware is not soft
 ]
 3. Results
-.small[
-* Some plots
-* Unrelated tangent
+.small.blue-text[
 * Really hard-to-read table
+* Unrelated tangent
 * Horrendogram
 ]
 4. Discussion
-.small[
+.small.blue-text[
 * Where is this headed?
 * So much inference
-* Did we get through all of this?
 * When is he done?
 ]
 5. Supplement
-.small[
+.small.blue-text[
 * There's more?!
 * Who does this in a talk?
 ]
@@ -321,17 +317,12 @@ text("Time or space", x=cc/2, y=-ss/2+ss*2, xpd=NA, pos=1, cex=2)
 
 ---
 
-class: center, middle, inverse
-
-# Revealing the true state of nature
-# requires some observations
-
----
-
-class: frimg, center, bottom, inverse-black
+class: frimg, center, bottom, black-back
 background-image: url(figs/venice_carnival.jpg)
-background-position: 50% 50%
 background-size: 100%
+
+## .white-text[Revealing the true state requires observations]
+### .black-text[-]
 
 ---
 
@@ -1046,12 +1037,17 @@ Shakespeare's plays: *Sir John Gilbert (1849)*
 
 ---
 
-class: frimg, center, bottom, black-back
-background-image: url(figs/venice_carnival.jpg)
-background-size: 100%
+class: center, middle, inverse
 
-# .white-text[Revealing the truth requires observations]
-### .black-text[-]
+# Revealing the true state of nature
+# requires some observations
+
+---
+
+class: frimg, center, bottom, inverse-black
+background-image: url(figs/venice_carnival.jpg)
+background-position: 50% 50%
+background-size: 100%
 
 ---
 
