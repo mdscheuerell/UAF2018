@@ -308,10 +308,16 @@ text("Time or space", x=cc/2, y=-ss/2+ss*2, xpd=NA, pos=1, cex=2)
 
 # States of nature might be
 
-.blue-text[
+.green-text[
 ## Animal location
+]
+.blue-text[
 ## Species density
+]
+.orange-text[
 ## Age structure
+]
+.purple-text[
 ## Reproductive status
 ]
 
@@ -494,7 +500,7 @@ class: inverse, center, middle
 
 # Many software options
 
-## .blue-text[Canned **R** packages] (dlm, vars, MARSS<sup>*</sup>)
+## .green-text[Canned **R** packages] (dlm, vars, MARSS<sup>*</sup>)
 
 ## .blue-text[Code-your-own] (JAGS, Stan, greta)
 
@@ -597,6 +603,12 @@ mtext(side=3, "NMDS", cex=2, line=0)
 
 ---
 
+class: center, middle, inverse
+
+# Dynamic Factor Analysis
+
+---
+
 ```{r plot_many_ts, echo=FALSE, dpi=300, fig.height=5.5, fig.width=7, fig.align='center'}
 NN <- 25
 TT <- 30
@@ -695,11 +707,10 @@ background-size: 80%
 
 ---
 
-# Groundfish surveys along the West Coast
-
-.blue-text.right[
-## Assess status & set catch limits for 100+ species
-]
+class: black-back
+background-image: url(figs/wcgfs.jpg)
+background-position: 50% 50%
+background-size: 97%
 
 ---
 
@@ -708,6 +719,12 @@ background-size: 80%
 .right.blue-text[
 ## Ex: California Current rockfish (20 spp, 10 years)
 ]
+
+---
+
+class: center, middle, inverse
+
+# Spatial Factor Analysis
 
 ---
 
