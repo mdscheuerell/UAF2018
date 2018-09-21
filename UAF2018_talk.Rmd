@@ -1041,13 +1041,33 @@ background-size: 100%
 
 # Similar application to Deepwater Horizon
 
+.citation[ 20 April 2010 ]
 ---
 
 # How did abundance change post-spill?
 
 .blue-text.right[
 ## Quarterly survey data from 1982-present
+
+## 50+ species of fish & inverts
 ]
+
+---
+
+class: frimg,
+background-image: url(figs/dwh_sites.png)
+background-position: 50% 50%
+background-size: 80%
+
+
+---
+
+class: frimg, middle
+background-image: url(figs/dwh_effect.png)
+background-position: 80% 50%
+background-size: 55%
+
+.footnoteSm.gray-text[Scheuerell et al. _in prep_]
 
 ---
 
