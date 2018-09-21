@@ -880,7 +880,7 @@ background-size: 60%
 
 # This Product™
 
-### Now with a new gray box!
+### Now with a plain gray box!
 
 ---
 
@@ -1038,7 +1038,7 @@ background-image: url(figs/dwh.jpg)
 background-position: 50% 50%
 background-size: 100%
 
-# Similar application to Deepwater Horizon
+# Deepwater Horizon oil spill
 
 .citation[ 20 April 2010 ]
 ---
@@ -1053,11 +1053,12 @@ background-size: 100%
 
 ---
 
-class: frimg,
-background-image: url(figs/dwh_sites.png)
+class: black-back
+background-image: url(figs/seamap_zones.jpeg)
 background-position: 50% 50%
-background-size: 80%
+background-size: 95%
 
+# Spatial mgmt zones
 
 ---
 
@@ -1078,6 +1079,21 @@ background-size: 55%
 ## .red-text[ Oil spill (-) ]
 
 ## .blue-text[ No Fishing (+) ]
+
+.footnoteSm.gray-text[Scheuerell et al. _in prep_]
+
+---
+
+class: frimg, middle
+background-image: url(figs/dwh_effect.png)
+background-position: 80% 50%
+background-size: 55%
+
+## .red-text[ Oil spill (-) ]
+
+## .blue-text[ No Fishing (+) ]
+
+## .orange-text[ 3 yrs after ]
 
 .footnoteSm.gray-text[Scheuerell et al. _in prep_]
 
