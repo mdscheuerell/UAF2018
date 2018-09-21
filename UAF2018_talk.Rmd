@@ -171,9 +171,13 @@ background-size: 90%
 
 ---
 
-class: inverse, middle, center
+class: middle
 
-# The signal and the noise
+> # We have a prediction problem. We love to predict things and we aren't very good at it.  
+
+## .right[ Nate Silver ]
+
+### .gray-text.right[ _The Signal and the Noise_ ]
 
 ---
 
