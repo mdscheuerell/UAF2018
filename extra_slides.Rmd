@@ -121,14 +121,38 @@ text("today", x=xm[2], y=ymb, cex=1.8, col="#ffffff", pos=1)
 
 ---
 
-# Applications of hierarchical models
+class: center, middle, inverse
 
-.blue-text[
-## Individual movements
+# Revealing the true state of nature
+# requires some observations
 
-## Species interactions
+---
 
-## Joint species distributions
+class: frimg, center, bottom, inverse-black
+background-image: url(figs/venice_carnival.jpg)
+background-position: 50% 50%
+background-size: 100%
 
-## Meta-analyses
-]
+---
+
+# Other applications of hierarchical models
+
+## .blue-text[Identifying metapopulation structure]
+
+### .right[Ward et al (2010) *J Appl Ecol* &nbsp; 47:47–56]
+
+---
+
+# Other applications of hierarchical models
+
+## .blue-text[Reducing bias in estimates of density dependence] 
+
+### .right[Knape & de Valpine (2012) *Ecol Lett* &nbsp; 15:17–23]
+
+---
+
+# Other applications of hierarchical models
+
+## .blue-text[Improving precision in species extinction forecasts] 
+
+### .right[See & Holmes (2015) *Ecol Appl* &nbsp; 25:1157–1165]
