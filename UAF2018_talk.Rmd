@@ -112,6 +112,15 @@ class: frimgB, center
 
 ---
 
+class: middle, inverse
+# How do natural & human forces affect
+
+# .center[ the structure of aquatic ecosystems & ]
+
+# .right[ the services we derive from them? ]
+
+---
+
 # My early research was largely empirical
 
 .green-text[
@@ -162,7 +171,13 @@ background-size: 90%
 
 ---
 
-# My current research themes
+class: inverse, middle, center
+
+# The signal and the noise
+
+---
+
+# Current research foci
 
 .green-text[
 ## Models for spatio-temporal data
@@ -556,6 +571,7 @@ background-image: url(figs/shake.jpg)
 background-position: 50% 50%
 background-size: 100%
 
+.white-text[
 # Classification
 
 <br><br>
@@ -567,6 +583,7 @@ background-size: 100%
 <br><br>
 
 ## .center[ Comedy ]  
+]
 
 ---
 
@@ -1033,14 +1050,15 @@ background-size: 85%
 
 ---
 
-class: frimg, inverse
+class: frimg
 background-image: url(figs/dwh.jpg)
 background-position: 50% 50%
 background-size: 100%
 
-# Deepwater Horizon oil spill
+# .white-text[ Deepwater Horizon oil spill ]
 
-.citation[ 20 April 2010 ]
+.citation.white-text[ 20 April 2010 ]
+
 ---
 
 # How did abundance change post-spill?
@@ -1089,11 +1107,7 @@ background-image: url(figs/dwh_effect.png)
 background-position: 80% 50%
 background-size: 55%
 
-## .red-text[ Oil spill (-) ]
-
-## .blue-text[ No Fishing (+) ]
-
-## .orange-text[ 3 yrs after ]
+## .orange-text[ Only 3 yrs later ]
 
 .footnoteSm.gray-text[Scheuerell et al. _in prep_]
 
