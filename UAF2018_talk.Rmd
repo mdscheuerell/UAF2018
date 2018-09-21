@@ -56,16 +56,6 @@ _School of Aquatic and Fishery Sciences<br>University of Washington<br>_
 
 ---
 
-class: frimg, center 
-background-image: url(figs/mit_fire_hose.jpg)
-background-size: cover
-
-.white-text[
-# I hope you're thirsty!
-]
-
----
-
 # A brief outline
 
 1. Introduction
@@ -145,6 +135,7 @@ class: center, middle, inverse
 class: frimg
 
 background-image: url(figs/remote_sensing.jpg)
+background-position: 50% 50%
 background-size: 100%
 
 # Remote sensing
@@ -154,6 +145,7 @@ background-size: 100%
 class: frimg, center
 
 background-image: url(figs/dna.png)
+background-position: 50% 50%
 background-size: 100%
 
 # Genetics
@@ -163,6 +155,7 @@ background-size: 100%
 class: frimg, right
 
 background-image: url(figs/stats.png)
+background-position: 50% 30%
 background-size: 90%
 
 # Analysis
@@ -255,10 +248,16 @@ class: center, middle, inverse
 
 # Hierarchical models also masquerade as
 
-.blue-text[
+.green-text[
 ## Nested data models
+]
+.blue-text[
 ## Mixed models
+]
+.orange-text[
 ## Random-effects models
+]
+.purple-text[
 ## State-space models
 ]
 
@@ -342,7 +341,7 @@ class: frimg, bottom, right
 background-image: url(figs/sockeye.jpg)
 background-size: cover
 
-# .white-text[How many salmon are there?]
+# .white-text[How many sockeye are there?]
 
 ---
 
@@ -484,7 +483,7 @@ class: frimg
 ## 4. Rather flexible
 
 .center.blue-text[
-### This simple model can be used for 5+ unique applications!
+### This simple model can be used for 5+ unique applications
 ]
 
 $$\LARGE \mathbf{x}_t = \mathbf{B} \mathbf{x}_{t-1} + \mathbf{w}_t \\
