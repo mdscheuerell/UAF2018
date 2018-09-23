@@ -1136,15 +1136,15 @@ background-size: 55%
 ## Image sources
 
 .small.blue-text[
-Drinking fountain: *Massachusetts Inst Tech*  
 MN map: *Chandler O’Leary (2013)*  
 WI map: *Cat's Meow Village*  
 LIDAR: *NOAA*  
 DNA: *fizzgig (2016)*  
 Janet Leigh: *Paramount Studios*  
+Carnival: *Frank Kovalchek (2010)*   
 Snake oil: *The Register*  
-DWH: *US Coast Guard*  
 Shakespeare's plays: *Sir John Gilbert (1849)*
+DWH: *US Coast Guard*  
 ]
 
 .futnote[`r icon::fa("envelope")` mark.scheuerell@noaa.gov]
