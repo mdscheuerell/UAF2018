@@ -56,18 +56,23 @@ _School of Aquatic and Fishery Sciences<br>University of Washington<br>_
 
 ---
 
+# Topics for today
+
+
+---
+
 # A brief outline
 
 1. Introduction
 .small.blue-text[
 * My story  
-* Emergence of cool stuff
+* Emergence of neat stuff
 * Can we get through all of this?
 ]
 2. Methods
 .small.blue-text[
 * New school stats
-* Software improvements
+* Software can be hard, but
 * Hardware is not soft
 ]
 3. Results
@@ -109,15 +114,6 @@ class: frimgB, center
 # I was trained as a field ecologist
 
 <img src="figs/Mark_at_Rainbow_Cr.jpg", alt="", height=440, width=440>
-
----
-
-class: middle, inverse
-# How do natural & human forces affect
-
-# .center[ the structure of aquatic ecosystems & ]
-
-# .right[ the services we derive from them? ]
 
 ---
 
@@ -168,6 +164,15 @@ background-position: 50% 30%
 background-size: 90%
 
 # Analysis
+
+---
+
+class: middle, inverse
+# How do natural & human forces affect
+
+# .center[ the structure of aquatic ecosystems & ]
+
+# .right[ the services we derive from them? ]
 
 ---
 
@@ -1113,13 +1118,29 @@ background-size: 55%
 
 ---
 
+# Future directions
+
+## Estimating food-web interactions
+
+---
+
 # In summary
 
 .blue-text[
-## There is plethora of new methods for naturalists
+## Hierarchical models are great for analyses of temporal & spatial data
 
-## Among them, hierarchical models show real promise
+## But, they are _not_ a panacea 
+]
 
+.futnote[`r icon::fa("envelope")` mark.scheuerell@noaa.gov]
+
+.citation[`r icon::fa("twitter")` @mark_scheuerell]
+
+---
+
+# In summary
+
+.blue-text[
 ## Software & hardware improvements open new doors
 ]
 
