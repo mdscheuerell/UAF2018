@@ -56,45 +56,6 @@ _School of Aquatic and Fishery Sciences<br>University of Washington<br>_
 
 ---
 
-# Topics for today
-
-
----
-
-# A brief outline
-
-1. Introduction
-.small.blue-text[
-* My story  
-* Emergence of neat stuff
-* Can we get through all of this?
-]
-2. Methods
-.small.blue-text[
-* New school stats
-* Software can be hard, but
-* Hardware is not soft
-]
-3. Results
-.small.blue-text[
-* Really hard-to-read table
-* Unrelated tangent
-* Horrendogram
-]
-4. Discussion
-.small.blue-text[
-* Where is this headed?
-* So much inference
-* When is he done?
-]
-5. Supplement
-.small.blue-text[
-* There's more?!
-* Who does this in a talk?
-]
-
----
-
 class: frimg
 
 background-image: url(figs/minnesota.jpg)
@@ -167,21 +128,6 @@ background-size: 90%
 
 ---
 
-class: middle, inverse
-# How do natural & human forces affect
-
-# .center[ the structure of aquatic ecosystems & ]
-
-# .right[ the services we derive from them? ]
-
----
-
-class: inverse, middle, center
-
-# The signal and the noise
-
----
-
 # Current research foci
 
 .green-text[
@@ -193,6 +139,38 @@ class: inverse, middle, center
 .orange-text.right[
 ## Ecological portfolios
 ]
+
+---
+
+class: middle, inverse
+# How do natural & human forces affect
+
+# .center[ the structure of aquatic ecosystems & ]
+
+# .right[ the services we derive from them? ]
+
+---
+
+# The forces may be
+
+## .green-text[ biological (food web interactions, harvest) ]
+## .blue-text[ physical (climate, habitat modification) ]
+## .orange-text[ chemical (ocean acidification, contaminants) ]
+
+---
+
+# The services can be
+
+## .green-text[ provisioning (food production) ]
+## .blue-text[ supporting (nutrient cycling) ]
+## .orange-text[ regulating (flood control) ]
+## .purple-text[ cultural (spiritual benefits) ]
+
+---
+
+class: inverse, middle, center
+
+# The signal and the noise
 
 ---
 
@@ -693,6 +671,14 @@ for(i in 1:3) {
 
 .blue-text.right[
 ## Trying to understand when & where stocks covary
+]
+
+.gray-text.right[
+### Mantua et al. (1997)
+
+### Mueter et al. (2005)
+
+### Stachura et al. (2014)
 ]
 
 ---
