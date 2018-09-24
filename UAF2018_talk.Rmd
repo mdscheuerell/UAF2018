@@ -153,19 +153,42 @@ class: middle, inverse
 
 # The forces may be
 
-## .green-text[ biological (food web interactions, harvest) ]
-## .blue-text[ physical (climate, habitat modification) ]
-## .orange-text[ chemical (ocean acidification, contaminants) ]
+## .green-text[
+biological (food web interactions, harvest)
+]
+## .blue-text[
+physical (climate, habitat modification)
+]
+## .orange-text[
+chemical (ocean acidification, contaminants)
+]
 
 ---
 
 # The services can be
 
-## .green-text[ provisioning (food production) ]
-## .blue-text[ supporting (nutrient cycling) ]
-## .orange-text[ regulating (flood control) ]
-## .purple-text[ cultural (spiritual benefits) ]
+## .green-text[
+provisioning (food production)
+]
+## .blue-text[
+supporting (nutrient cycling)
+]
+## .orange-text[
+regulating (flood control)
+]
+## .purple-text[
+cultural (spiritual benefits)
+]
 
+---
+
+class: middle
+
+> # We love to forecast, but we're not very good at it.
+
+.right[
+## Nate Silver .wh-text["--"]
+]
 ---
 
 class: inverse, middle, center
@@ -711,6 +734,17 @@ background-position: 50% 70%
 background-size: 80%
 
 # Two declining trends
+
+.citationT.gray-text[Ohlberger et al. (2016) *Ecosphere* 7:e01333]
+
+---
+
+class: frimg, center
+background-image: url(figs/dfa_npgo.png)
+background-position: 35% 60%
+background-size: 70%
+
+# Ocean is part of the story
 
 .citationT.gray-text[Ohlberger et al. (2016) *Ecosphere* 7:e01333]
 
