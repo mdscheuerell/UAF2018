@@ -759,6 +759,17 @@ background-size: 65%
 
 ---
 
+class: frimg, center
+background-image: url(figs/dfa_fore_err.png)
+background-position: 45% 60%
+background-size: 50%
+
+# Environmental effects improve forecasts
+
+.citationT.gray-text[Ohlberger et al. (2016) *Ecosphere* 7:e01333]
+
+---
+
 class: black-back
 background-image: url(figs/wcgfs.jpg)
 background-position: 50% 50%
