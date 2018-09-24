@@ -14,6 +14,41 @@ options(htmltools.dir.version = FALSE, servr.daemon = TRUE)
 library(huxtable)
 ```
 
+---
+
+# A brief outline
+
+1. Introduction
+.small.blue-text[
+* My story  
+* Emergence of neat stuff
+* Can we get through all of this?
+]
+2. Methods
+.small.blue-text[
+* New school stats
+* Software can be hard, but
+* Hardware is not soft
+]
+3. Results
+.small.blue-text[
+* Really hard-to-read table
+* Unrelated tangent
+* Horrendogram
+]
+4. Discussion
+.small.blue-text[
+* Where is this headed?
+* So much inference
+* When is he done?
+]
+5. Supplement
+.small.blue-text[
+* There's more?!
+* Who does this in a talk?
+]
+
+---
 
 # Part 2: Observation model
 
