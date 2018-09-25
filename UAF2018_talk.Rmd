@@ -1195,9 +1195,11 @@ background-size: 55%
 
 # Future directions
 
+.blue-text[
 ## Marine & freshwater food-web interactions
 
 ## Ecological portfolios
+]
 
 ---
 
@@ -1231,7 +1233,7 @@ background-size: 55%
 
 # Image sources
 
-.small.blue-text[
+.blue-text[
 MN map: *Chandler O’Leary (2013)*  
 WI map: *Cat's Meow Village*  
 LIDAR: *NOAA*  
@@ -1239,8 +1241,8 @@ DNA: *fizzgig (2016)*
 Janet Leigh: *Paramount Studios*  
 Carnival: *Frank Kovalchek (2010)*   
 Snake oil: *The Register*  
-Shakespeare's plays: *Sir John Gilbert (1849)*
-Robin Hood: *John Escott*
+Shakespeare's plays: *Sir John Gilbert (1849)*  
+Robin Hood: *John Escott*  
 DWH: *US Coast Guard*  
 ]
 
