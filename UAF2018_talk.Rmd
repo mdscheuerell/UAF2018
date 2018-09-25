@@ -1166,42 +1166,32 @@ background-size: 55%
 
 # Future directions
 
-## Estimating food-web interactions
+## Marine & freshwater food-web interactions
+
+## Ecological portfolios
 
 ---
 
 # In summary
 
 .blue-text[
-## Hierarchical models are great for analyses of temporal & spatial data
+## Much of our data is "noisy"
 
-## But, they are _not_ a panacea 
+## Identifying signals in the noise can be challenging
+
+## Hierarchical models offer great promise,
+
+## .right[ but they are _not_ a panacea ]
 ]
-
-.futnote[`r icon::fa("envelope")` mark.scheuerell@noaa.gov]
-
-.citation[`r icon::fa("twitter")` @mark_scheuerell]
-
----
-
-# In summary
-
-.blue-text[
-## Software & hardware improvements open new doors
-]
-
-.futnote[`r icon::fa("envelope")` mark.scheuerell@noaa.gov]
-
-.citation[`r icon::fa("twitter")` @mark_scheuerell]
 
 ---
 
 # Open science
 
 .blue-text[
-## As a public servant my work should be accessible
-
 ## I'm dedicated to open, reproducible research
+
+## As a public servant my work should be accessible
 ]
 
 ## Slide deck
@@ -1223,8 +1213,4 @@ Snake oil: *The Register*
 Shakespeare's plays: *Sir John Gilbert (1849)*
 DWH: *US Coast Guard*  
 ]
-
-.futnote[`r icon::fa("envelope")` mark.scheuerell@noaa.gov]
-
-.citation[`r icon::fa("twitter")` @mark_scheuerell]
 
