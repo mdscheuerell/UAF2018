@@ -809,6 +809,12 @@ background-size: 75%
 
 ---
 
+class: center, middle
+
+# Robin Hood effect
+
+---
+
 # How do spatial patterns change over time?
 
 .right.blue-text[
@@ -819,8 +825,8 @@ background-size: 75%
 
 class: frimg
 background-image: url(figs/sdfa.png)
-background-position: 50% 40%
-background-size: 60%
+background-position: 50% 25%
+background-size: 65%
 
 .citationT.gray-text[Thorson et al. (2016) *Global* *Ecol* & *Biogeogr* 6:627–637]
 
@@ -925,7 +931,7 @@ background-size: 77%
 
 class: inverse, center, middle
 
-# We need a state-space model!
+# We need a hierarchical model!
 
 ---
 
@@ -1190,11 +1196,21 @@ background-size: 55%
 
 ---
 
-##  Slide deck
+# Open science
+
+.blue-text[
+## As a public servant my work should be accessible
+
+## I'm dedicated to open, reproducible research
+]
+
+## Slide deck
 
 .blue-text[https://github.com/mdscheuerell/UAF2018]
 
-## Image sources
+---
+
+# Image sources
 
 .small.blue-text[
 MN map: *Chandler O’Leary (2013)*  
