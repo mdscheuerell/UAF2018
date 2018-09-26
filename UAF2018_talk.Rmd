@@ -36,7 +36,7 @@ _School of Aquatic and Fishery Sciences<br>University of Washington<br>_
 
 ### .blue-text[ Stephanie Hampton, Steve Katz ] (Washington St Univ)
 
-### .blue-text[ Daniel Schindler, Ray Hilborn ] (Univ Washington)
+### .blue-text[ Daniel Schindler, Jan Ohlberger ] (Univ Washington)
 
 ### .blue-text[ Brice Semmens ] (Scripps)
 
@@ -184,10 +184,10 @@ cultural (spiritual benefits)
 
 class: middle
 
-> # "We love to forecast, but we're not very good at it."
+> # We love to forecast, but we're not very good at it.
 
 .right[
-## Nate Silver .wh-text["--"]
+## - Nate Silver .wh-text["-----"]
 ]
 ---
 
@@ -490,12 +490,13 @@ text("Time or space", x=cc/2, y=-ss/2, xpd=NA, pos=1, cex=2)
 ---
 
 class: frimg
+background-image: url(figs/Jonsen2016.png)
+background-position: 50% 60%
+background-size: 70%
 
 # Advantages of hierarchical models
 
 ## 3. Improved accuracy & precision
-
-.img-center-land[![](figs/Jonsen2016.png)]
 
 ---
 
@@ -1195,9 +1196,11 @@ background-size: 55%
 
 # Future directions
 
-.blue-text[
+.green-text[
 ## Marine & freshwater food-web interactions
+]
 
+.blue-text[
 ## Ecological portfolios
 ]
 
