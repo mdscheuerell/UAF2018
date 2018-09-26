@@ -526,7 +526,7 @@ class: inverse, center, middle
 ## .blue-text[Code-your-own] (JAGS, Stan, greta)
 
 .footnoteSm.gray-text[
-<sup>\*</sup>See Holmes, Ward, Scheuerell (2018) _Analysis of multivariate time-series using the MARSS package_
+<sup>\*</sup>Holmes, Ward, Scheuerell (2018) _Analysis of multivariate time-series using the MARSS package_
 ]
 
 ---
@@ -733,7 +733,7 @@ background-size: 63%
 # Are there common patterns over time?
 
 .blue-text.right[
-## Ex: Alaskan king salmon (15 popns, 25+ years)
+## Ex: Alaskan Chinook salmon (15 popns, 25+ years)
 ]
 
 ---
@@ -784,6 +784,12 @@ background-size: 50%
 # Environmental effects improve forecasts
 
 .citationT.gray-text[Ohlberger et al. (2016) *Ecosphere* 7:e01333]
+
+---
+
+class: inverse, middle, center
+
+# Space. The final frontier...
 
 ---
 
@@ -859,6 +865,12 @@ background-position: 50% 25%
 background-size: 65%
 
 .citationT.gray-text[Thorson et al. (2016) *Global* *Ecol* & *Biogeogr* 6:627–637]
+
+---
+
+class: inverse, middle, center
+
+# Shifting southward
 
 ---
 
@@ -1194,14 +1206,24 @@ background-size: 55%
 
 ---
 
+class: inverse, center, middle
+
 # Future directions
 
-.green-text[
-## Marine & freshwater food-web interactions
+---
+
+# Marine & freshwater food-webs
+
+.blue-text.right[
+## How do species interactions change over time?
 ]
 
-.blue-text[
-## Ecological portfolios
+---
+
+# Ecological portfolios
+
+.blue-text.right[
+## How do risks vs rewards change over time?
 ]
 
 ---
@@ -1249,3 +1271,6 @@ Robin Hood: *John Escott*
 DWH: *US Coast Guard*  
 ]
 
+---
+
+class: black-back
