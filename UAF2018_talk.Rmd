@@ -1259,11 +1259,15 @@ class: inverse, center, middle
 ## As a public servant my work should be accessible
 ]
 
+## Development
+
+.blue-text[https://github.com/mdscheuerell/]
+
+---
+
 ## Slide deck
 
 .blue-text[https://github.com/mdscheuerell/UAF2018]
-
----
 
 # Image sources
 
