@@ -768,6 +768,15 @@ background-size: 70%
 ---
 
 class: frimg
+background-image: url(figs/dfa_region.png)
+background-position: 50% 35%
+background-size: 65%
+
+.citationT.gray-text[Ohlberger et al. (2016) *Ecosphere* 7:e01333]
+
+---
+
+class: frimg
 background-image: url(figs/dfa_covar.png)
 background-position: 50% 40%
 background-size: 65%
