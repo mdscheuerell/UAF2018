@@ -1277,13 +1277,13 @@ background-size: 70%
 ## As a public servant my work should be accessible
 ]
 
-## Development
+# Development
 
 .blue-text[https://github.com/mdscheuerell/]
 
 ---
 
-## Slide deck
+# Slide deck
 
 .blue-text[https://github.com/mdscheuerell/UAF2018]
 
