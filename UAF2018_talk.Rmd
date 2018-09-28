@@ -1229,11 +1229,29 @@ class: inverse, center, middle
 
 ---
 
+class: frimg
+background-image: url(figs/san_nic.png)
+background-position: 50% 70%
+background-size: 90%
+
+# Kelp forest food webs
+
+---
+
 # Ecological portfolios
 
 .blue-text.right[
 ## How do risks vs rewards change over time?
 ]
+
+---
+
+class: frimg
+background-image: url(figs/capm.png)
+background-position: 50% 80%
+background-size: 70%
+
+# Risk vs returns of assets
 
 ---
 
