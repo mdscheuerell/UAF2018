@@ -36,7 +36,7 @@ _School of Aquatic and Fishery Sciences<br>University of Washington<br>_
 
 ### .blue-text[ Stephanie Hampton, Steve Katz ] (Washington St Univ)
 
-### .blue-text[ Daniel Schindler, Ray Hilborn ] (Univ Washington)
+### .blue-text[ Daniel Schindler, Jan Ohlberger ] (Univ Washington)
 
 ### .blue-text[ Brice Semmens ] (Scripps)
 
@@ -52,40 +52,6 @@ _School of Aquatic and Fishery Sciences<br>University of Washington<br>_
 ## Undergrads
 
 ## _Many_ others
-]
-
----
-
-# A brief outline
-
-1. Introduction
-.small.blue-text[
-* My story  
-* Emergence of cool stuff
-* Can we get through all of this?
-]
-2. Methods
-.small.blue-text[
-* New school stats
-* Software improvements
-* Hardware is not soft
-]
-3. Results
-.small.blue-text[
-* Really hard-to-read table
-* Unrelated tangent
-* Horrendogram
-]
-4. Discussion
-.small.blue-text[
-* Where is this headed?
-* So much inference
-* When is he done?
-]
-5. Supplement
-.small.blue-text[
-* There's more?!
-* Who does this in a talk?
 ]
 
 ---
@@ -109,15 +75,6 @@ class: frimgB, center
 # I was trained as a field ecologist
 
 <img src="figs/Mark_at_Rainbow_Cr.jpg", alt="", height=440, width=440>
-
----
-
-class: middle, inverse
-# How do natural & human forces affect
-
-# .center[ the structure of aquatic ecosystems & ]
-
-# .right[ the services we derive from them? ]
 
 ---
 
@@ -171,16 +128,6 @@ background-size: 90%
 
 ---
 
-class: middle
-
-> # We have a prediction problem. We love to predict things and we aren't very good at it.  
-
-## .right[ Nate Silver ]
-
-### .gray-text.right[ _The Signal and the Noise_ ]
-
----
-
 # Current research foci
 
 .green-text[
@@ -192,6 +139,61 @@ class: middle
 .orange-text.right[
 ## Ecological portfolios
 ]
+
+---
+
+class: middle, inverse
+# How do natural & human forces affect
+
+# .center[ the structure of aquatic ecosystems & ]
+
+# .right[ the services we derive from them? ]
+
+---
+
+# The forces may be
+
+## .green-text[
+biological (food web interactions, harvest)
+]
+## .blue-text[
+physical (climate, habitat modification)
+]
+## .orange-text[
+chemical (ocean acidification, contaminants)
+]
+
+---
+
+# The services can be
+
+## .green-text[
+provisioning (food production)
+]
+## .blue-text[
+supporting (nutrient cycling)
+]
+## .orange-text[
+regulating (flood control)
+]
+## .purple-text[
+cultural (spiritual benefits)
+]
+
+---
+
+class: middle
+
+> # We love to forecast, but we're not very good at it.
+
+.right[
+## - Nate Silver .wh-text["-----"]
+]
+---
+
+class: inverse, middle, center
+
+# The signal and the noise
 
 ---
 
@@ -488,12 +490,13 @@ text("Time or space", x=cc/2, y=-ss/2, xpd=NA, pos=1, cex=2)
 ---
 
 class: frimg
+background-image: url(figs/Jonsen2016.png)
+background-position: 50% 60%
+background-size: 70%
 
 # Advantages of hierarchical models
 
 ## 3. Improved accuracy & precision
-
-.img-center-land[![](figs/Jonsen2016.png)]
 
 ---
 
@@ -523,7 +526,7 @@ class: inverse, center, middle
 ## .blue-text[Code-your-own] (JAGS, Stan, greta)
 
 .footnoteSm.gray-text[
-<sup>\*</sup>See Holmes, Ward, Scheuerell (2018) _Analysis of multivariate time-series using the MARSS package_
+<sup>\*</sup>Holmes, Ward, Scheuerell (2018) _Analysis of multivariate time-series using the MARSS package_
 ]
 
 ---
@@ -625,12 +628,6 @@ mtext(side=3, "NMDS", cex=2, line=0)
 
 ---
 
-class: center, middle, inverse
-
-# Dynamic Factor Analysis
-
----
-
 ```{r plot_many_ts, echo=FALSE, dpi=300, fig.height=5.5, fig.width=7, fig.align='center'}
 NN <- 25
 TT <- 30
@@ -688,10 +685,40 @@ for(i in 1:3) {
 
 ---
 
+# Dynamic Factor Analysis
+
+## .blue-text.under[State model]
+
+## .blue-text[Trends]<sub><i>t</i></sub> = .blue-text[Trends]<sub><i>t</i>-1</sub> + .gray-text[error]<sub><i>t</i></sub>
+
+---
+
+# Dynamic Factor Analysis
+
+## .blue-text.under[State model]
+
+## .blue-text[Trends]<sub><i>t</i></sub> = .blue-text[Trends]<sub><i>t</i>-1</sub> + .gray-text[error]<sub><i>t</i></sub>
+
+## .purple-text.under[Observation model]
+
+## .purple-text[Data]<sub><i>t</i></sub> = .orange-text[Loadings] × .blue-text[Trends]<sub><i>t</i></sub> + .red-text[error]<sub><i>t</i></sub>
+
+.citationT.gray-text[Zuur et al. (2003) *Environmetrics* 14:665–685] 
+
+---
+
 # Salmon returns & productivity
 
 .blue-text.right[
 ## Trying to understand when & where stocks covary
+]
+
+.gray-text.right[
+### Mantua et al. (1997)
+
+### Mueter et al. (2005)
+
+### Stachura et al. (2014)
 ]
 
 ---
@@ -706,7 +733,7 @@ background-size: 63%
 # Are there common patterns over time?
 
 .blue-text.right[
-## Ex: Alaskan king salmon (15 popns, 25+ years)
+## Ex: Alaskan Chinook salmon (15 popns, 25+ years)
 ]
 
 ---
@@ -729,6 +756,52 @@ background-size: 80%
 
 ---
 
+class: frimg, center
+background-image: url(figs/dfa_npgo.png)
+background-position: 35% 60%
+background-size: 70%
+
+# Ocean is part of the story
+
+.citationT.gray-text[Ohlberger et al. (2016) *Ecosphere* 7:e01333]
+
+---
+
+class: frimg
+background-image: url(figs/dfa_region.png)
+background-position: 50% 35%
+background-size: 65%
+
+.citationT.gray-text[Ohlberger et al. (2016) *Ecosphere* 7:e01333]
+
+---
+
+class: frimg
+background-image: url(figs/dfa_covar.png)
+background-position: 50% 40%
+background-size: 65%
+
+.citationT.gray-text[Ohlberger et al. (2016) *Ecosphere* 7:e01333]
+
+---
+
+class: frimg, center
+background-image: url(figs/dfa_fore_err.png)
+background-position: 45% 60%
+background-size: 50%
+
+# Environmental effects improve forecasts
+
+.citationT.gray-text[Ohlberger et al. (2016) *Ecosphere* 7:e01333]
+
+---
+
+class: inverse, middle, center
+
+# Space. The final frontier...
+
+---
+
 class: black-back
 background-image: url(figs/wcgfs.jpg)
 background-position: 50% 50%
@@ -744,9 +817,17 @@ background-size: 97%
 
 ---
 
-class: center, middle, inverse
-
 # Spatial Factor Analysis
+
+## .blue-text.under[State model]
+
+## .blue-text[Spatial maps]<sub><i>i</i></sub>
+
+## .purple-text.under[Observation model]
+
+## .purple-text[Data]<sub><i>i</i></sub> = .orange-text[Loadings] × .blue-text[Spatial maps]<sub><i>i</i></sub> + .red-text[error]<sub><i>i</i></sub>
+
+.citationT.gray-text[Thorson et al. (2015) *Meth* *Ecol* & *Evol* 6:627–637]
 
 ---
 
@@ -768,6 +849,17 @@ background-size: 75%
 
 ---
 
+class: center, bottom, black-back
+background-image: url(figs/robin.jpg)
+background-position: 50% 50%
+background-size: 75%
+
+.white-text[
+# Robin Hood Effect
+]
+
+---
+
 # How do spatial patterns change over time?
 
 .right.blue-text[
@@ -778,10 +870,16 @@ background-size: 75%
 
 class: frimg
 background-image: url(figs/sdfa.png)
-background-position: 50% 40%
-background-size: 60%
+background-position: 50% 25%
+background-size: 65%
 
 .citationT.gray-text[Thorson et al. (2016) *Global* *Ecol* & *Biogeogr* 6:627–637]
+
+---
+
+class: inverse, middle, center
+
+# Shifting southward
 
 ---
 
@@ -884,7 +982,7 @@ background-size: 77%
 
 class: inverse, center, middle
 
-# We need a state-space model!
+# We need a hierarchical model!
 
 ---
 
@@ -1117,41 +1215,93 @@ background-size: 55%
 
 ---
 
-# In summary
+class: inverse, center, middle
 
-.blue-text[
-## There is plethora of new methods for naturalists
-
-## Among them, hierarchical models show real promise
-
-## Software & hardware improvements open new doors
-]
-
-.futnote[`r icon::fa("envelope")` mark.scheuerell@noaa.gov]
-
-.citation[`r icon::fa("twitter")` @mark_scheuerell]
+# Future directions
 
 ---
 
-##  Slide deck
+# Marine & freshwater food-webs
+
+.blue-text.right[
+## How do species interactions change over time?
+]
+
+---
+
+class: frimg
+background-image: url(figs/san_nic.png)
+background-position: 50% 70%
+background-size: 90%
+
+# Kelp forest food webs
+
+---
+
+# Ecological portfolios
+
+.blue-text.right[
+## How do risks vs rewards change over time?
+]
+
+---
+
+class: frimg
+background-image: url(figs/capm.png)
+background-position: 50% 80%
+background-size: 70%
+
+# Risk vs returns of assets
+
+---
+
+# In summary
+
+.blue-text[
+## Much of our data is "noisy"
+
+## Identifying signals in the noise can be challenging
+
+## Hierarchical models offer great promise,
+
+## .right[ but they are _not_ a panacea ]
+]
+
+---
+
+# Open science
+
+.blue-text[
+## I'm dedicated to open, reproducible research
+
+## As a public servant my work should be accessible
+]
+
+# Development
+
+.blue-text[https://github.com/mdscheuerell/]
+
+---
+
+# Slide deck
 
 .blue-text[https://github.com/mdscheuerell/UAF2018]
 
-## Image sources
+# Image sources
 
-.small.blue-text[
-Drinking fountain: *Massachusetts Inst Tech*  
+.blue-text[
 MN map: *Chandler O’Leary (2013)*  
 WI map: *Cat's Meow Village*  
 LIDAR: *NOAA*  
 DNA: *fizzgig (2016)*  
 Janet Leigh: *Paramount Studios*  
+Carnival: *Frank Kovalchek (2010)*   
 Snake oil: *The Register*  
+Shakespeare's plays: *Sir John Gilbert (1849)*  
+Robin Hood: *John Escott*  
 DWH: *US Coast Guard*  
-Shakespeare's plays: *Sir John Gilbert (1849)*
 ]
 
-.futnote[`r icon::fa("envelope")` mark.scheuerell@noaa.gov]
+---
 
-.citation[`r icon::fa("twitter")` @mark_scheuerell]
-
+class: black-back
